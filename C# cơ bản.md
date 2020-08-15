@@ -16,4 +16,6 @@
 
 - Là một ngôn ngữ lập trình hướng đối tượng
 
+![Ảnh chụp Màn hình 2020-08-14 lúc 23.14.10.png](https://raw.githubusercontent.com/Zenfection/Image/master/2020/08/14-23-14-18-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202020-08-14%20lu%CC%81c%2023.14.10.png)
+
 
