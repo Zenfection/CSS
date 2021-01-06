@@ -171,3 +171,110 @@ h1 {
 **Thứ tự phân tầng như sau :** **`Inline`** > **`Internal`** > **`Enternal`**
 
 > 💡 có nghĩa là `Inline` là được ưu tiên nhất sau đó đến `Internal` rồi `Enternal`
+
+---
+
+## CSS-Color
+
+Ta có thể định nghĩa màu sắc bằng những chuẩn khác nhau như : RGB, HEX, HSL, RGBA và HSLA...
+
+> 💡 Nhưng mình thấy phổ biến nhất là **HEX**
+
+### Ta có thể đĩnh nghĩa color phổ biến như sau :
+
+- **Màu nền** : Sử dụng `color:"_màu_";`
+
+```html
+<h1 style="background-color:DodgerBlue;">Xin chào</h1>
+```
+
+- **Màu văn bản** : Sử dụng `color:"_màu_";`
+
+```html
+<h1 style="color:Tomato;">Xin chào</h1>
+```
+
+- **Màu viền** : Sử dụng `border:_số_px soild _màu_`
+
+```html
+<h1 style="border:2px solid Tomato;">Xin chào</h1>
+```
+
+### Ta có các cách định nghĩa màu sau đây:
+
+- **Tên màu** : Ta có thể dùng 140 tên màu mặc định của HTML, [tham khảo tại đây](https://quantrimang.com/mau-sac-trong-html-149960), *ví dụ ở trên*
+- **Giá trị RGB** : Màu RGB có cú pháp và công thức nhứ sau
+
+```textile
+rgb(red,green,blue)
+```
+
+>  💡 Mỗi thông số **red,green,blue** đều nằm trong khoảng từ `0 tới 255`
+
+**Ví dụ:**  `rgb(255,0,0)` là màu đỏ vì `red là 255`, `green là 0` và `blue là 0`
+
+Màu đen là `rgb(0,0,0)` còn màu trắng là `rgb(255,255,255)`
+
+```html
+<p style="background-color:rgb(0, 0, 0); color:rgb(255, 255, 255);">rgb(0, 0, 0)</p>
+<p style="background-color:rgb(60, 60, 60); color:rgb(255, 255, 255);">rgb(60, 60, 60)</p>
+<p style="background-color:rgb(120, 120, 120); color:rgb(255, 255, 255);">rgb(120, 120, 120)</p>
+```
+
+- **Giá trị HEX**
+
+Màu sắc được định dạng bằng cơ số 16 dưới dạng:
+
+```textile
+#rrggbb
+```
+
+>  💡 Trong đó `rr là red`, `gg là green` và `bb là blue` có giá trị từ `00 tới ff` tương tự RGB là từ `0 tới 255`
+
+```html
+<p style="background-color:#ff0000; color:#ffffff;">#ff0000</p>
+<p style="background-color:#3cb371; color:#ffffff;">#3cb371</p>
+```
+
+- **Giá trị HSL**
+
+Màu sắc được định định dạng bằng các **hue** (*vùng màu*), **saturation** (*độ bão hoà*), **lightness** (*độ sáng*)
+
+> 💡 HSL là viết tắt của **hue-saturation-lightness**
+
+| Hue                                      | Saturation                                     | Lightness                               |
+| ---------------------------------------- | ---------------------------------------------- | --------------------------------------- |
+| Mức độ trên vòng màu sáng từ `0 tới 360` | là giá trị `%` , thể hiện độ tinh kiết của màu | là giá trị `%` thể hiện độ sáng của màu |
+
+Không cần học qua sâu, có thể tìm hiểu kỹ hơn [tại đây](https://www.w3schools.com/colors/colors_hsl.asp)
+
+- **Giá trị RGBA**
+
+Là màu sắc mở rộng của **RGB**, thêm `aplha` (*độ trong suốt của màu sắc*) nằm trong khoảng từ `0.0 tới 1.0`, với cú pháp:
+
+```textile
+rgba (red, green, blue, alpha)
+```
+
+**Ví dụ:**
+
+```html
+<p style="background-color:rgba(255, 99, 71, 0); color:#000000;">rgba(255, 99, 71, 0)</p>
+<p style="background-color:rgba(255, 99, 71, 0.4); color:#000000;">rgba(255, 99, 71, 0.4)</p>
+<p style="background-color:rgba(255, 99, 71, 0.8); color:#000000;">rgba(255, 99, 71, 0.8)</p>
+<p style="background-color:rgba(255, 99, 71, 1); color:#000000;">rgba(255, 99, 71, 1)</p>
+```
+
+- **Giá trị màu HSLA**
+
+Là màu sắc mở rộng của **HSL**, thêm `aplha` (*độ trong suốt của màu sắc*) nằm trong khoảng từ `0.0 tới 1.0`, với cú pháp:
+
+```textile
+hsl(hue, saturation, lightness, alpha)
+```
+
+☣️ **Chỉ cần nhớ RGB và HEX là đủ rồi**
+
+---
+
+
