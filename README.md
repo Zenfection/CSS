@@ -1,6 +1,6 @@
 # CSS3 for Kid
 
-## 🌀Xin chào các bạn đây, mình tên là Zenfection gọi tắt là Zen đây là một Series Linux của mình được viết bằng tiếng việt🌀
+## 🌀Xin chào các bạn đây, mình tên là Zenfection gọi tắt là Zen đây là một Series CSS của mình🌀
 
 #### Mình có đôi lời muốn nói sau đây:
 
