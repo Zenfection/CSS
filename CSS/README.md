@@ -1,58 +1,115 @@
-# L? tr?nh CSS
+# Học CSS3 cơ bản
 
-- [x] Chapter 1: Getting started with CSS
-- [x] Chapter 2: Structure and Formatting of a CSS Rule
-- [x] Chapter 3: Comments
-- [ ] Chapter 4: Selectors
-- [ ] Chapter 5: Backgrounds
-- [ ] Chapter 6: Centering
-- [ ] Chapter 7: The Box Model
-- [ ] Chapter 8: Margins
-- [ ] Chapter 9: Padding
-- [ ] Chapter 10: Border
-- [ ] Chapter 11: Outlines
-- [ ] Chapter 12: Over?ow
-- [ ] Chapter 13: Media Queries
-- [ ] Chapter 14: Floats
-- [ ] Chapter 15: Typography
-- [ ] Chapter 16: Flexible Box Layout (Flexbox)
-- [ ] Chapter 17: Cascading and Speci?city
-- [ ] Chapter 18: Colors
-- [ ] Chapter 19: Opacity
-- [ ] Chapter 20: Length Units
-- [ ] Chapter 21: Pseudo-Elements
-- [ ] Chapter 22: Positioning
-- [ ] Chapter 23: Layout Control
-- [ ] Chapter 24: Grid
-- [ ] Chapter 25: Tables
-- [ ] Chapter 26: Transitions
-- [ ] Chapter 27: Animations
-- [ ] Chapter 28: 2D Transforms
-- [ ] Chapter 29: 3D Transforms
-- [ ] Chapter 30: Filter Property
-- [ ] Chapter 31: Cursor Styling
-- [ ] Chapter 32: box-shadow
-- [ ] Chapter 33: Shapes for Floats
-- [ ] Chapter 34: List Styles
-- [ ] Chapter 35: Counters
-- [ ] Chapter 36: Functions
-- [ ] Chapter 37: Custom Properties (Variables)
-- [ ] Chapter 38: Single Element Shapes
-- [ ] Chapter 39: Columns
-- [ ] Chapter 40: Multiple columns
-- [ ] Chapter 41: Inline-Block Layout
-- [ ] Chapter 42: Inheritance
-- [ ] Chapter 43: CSS Image Sprites
-- [ ] Chapter 44: Clipping and Masking
-- [ ] Chapter 45: Fragmentation
-- [ ] Chapter 46: CSS Object Model (CSSOM)
-- [ ] Chapter 47: Feature Queries
-- [ ] Chapter 48: Stacking Context
-- [ ] Chapter 49: Block Formatting Contexts
-- [ ] Chapter 50: Vertical Centering
-- [ ] Chapter 51: Object Fit and Placement
-- [ ] Chapter 52: CSS design patterns
-- [ ] Chapter 53: Browser Support & Pre?xes
-- [ ] Chapter 54: Normalizing Browser Styles
-- [ ] Chapter 55: Internet Explorer Hacks
-- [ ] Chapter 56: Performance
+## Giới thiệu CSS
+
+- CSS là viết tắt của Cascading Style Sheets
+- CSS dùng để trang trí các phần tử trong HTML
+
+## Cú pháp CSS
+
+Cú pháp của CSS bao gồm `selector` (*chọn*) và `declaration` (*khai báo*)
+
+Ví dụ:
+
+```css
+p {
+  color: red;
+  text-align: center;
+}
+```
+
+kết thúc một câu lệnh là dấu `;`  và khối khai báo nằm trong dấu `{}`
+
+Có 3 cách để chọn 1 phần tử trong CSS đó là :
+
+- **Element Selector** (*dựa theo tên phần tử*)
+
+```css
+p {
+  text-align: center;
+  color: red;
+}   
+```
+
+- **ID Selector** (*dựa theo id*) : bắt đầu bằng dấu `#` cho id, tương tức với khai báo html là `id="para1"`
+
+```css
+#para1 {
+  text-align: center;
+  color: red;
+}
+```
+
+> 💡 Tên `id` không thể bắt đầu bằng **số**
+
+- **Class Selector** (*dựa trên class*) : bắt bằng bằng dấu `.` cho class, tương tức với khai báo html là `class="center"`
+
+```css
+.center {
+  text-align: center;
+  color: red;
+}
+```
+
+> 💊 Bạn cũng có thể chỉ định những phần tử nhất định chịu tác dụng của `class.` ví dụ như dưới đây, chỉ có `<p class="center">` là thực thi
+
+```css
+p.center {
+  text-align: center;
+  color: red;
+}
+```
+
+> 💊 Phần tử HTML có thể đặt nhiều hơn 1 class ví dụ là phần tử `<p>` được tạo theo 2 kiểu `class="center"` và `class="large"`
+
+```html
+<p class="center large">Đoạn văn sử dụng hai lớp.</p>
+```
+
+> 💡 Tên `class` không thể bắt đầu bằng **số**
+
+==> Cả `id` và `class` đều không thể bắt đầu bằng số
+
+Nếu các phần tử có cùng định dạng style thế này:
+
+```css
+h1 {
+ text-align: center;
+ color: red;
+}
+
+h2 {
+ text-align: center;
+ color: red;
+}
+
+p {
+ text-align: center;
+ color: red;
+}
+```
+
+Thì ta hoàn toàn có thể viết ngắn gọn thế này:
+
+```css
+h1, h2, p {
+ text-align: center;
+ color: red;
+}
+```
+
+> 💊 Trong CSS, comment ta dùng giống ngôn ngữ C,C++ có 2 cách comment chính như sau:
+
+```css
+p {
+ color: red;
+ /* Đây là bình luận một dòng */
+ text-align: center;
+}
+
+/* Đây là
+bình luận
+nhiều dòng */
+```
+
+
