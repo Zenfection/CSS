@@ -188,17 +188,23 @@ Ta có thể định nghĩa màu sắc bằng những chuẩn khác nhau như : 
 <h1 style="background-color:DodgerBlue;">Xin chào</h1>
 ```
 
+![Ảnh chụp Màn hình 2021-01-06 lúc 12.51.53.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/06-12-51-58-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-01-06%20lu%CC%81c%2012.51.53.png)
+
 - **Màu văn bản** : Sử dụng `color:"_màu_";`
 
 ```html
 <h1 style="color:Tomato;">Xin chào</h1>
 ```
 
+![Ảnh chụp Màn hình 2021-01-06 lúc 12.51.26.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/06-12-51-35-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-01-06%20lu%CC%81c%2012.51.26.png)
+
 - **Màu viền** : Sử dụng `border:_số_px soild _màu_`
 
 ```html
 <h1 style="border:2px solid Tomato;">Xin chào</h1>
 ```
+
+![Ảnh chụp Màn hình 2021-01-06 lúc 12.50.51.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/06-12-51-11-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-01-06%20lu%CC%81c%2012.50.51.png)
 
 ### Ta có các cách định nghĩa màu sau đây:
 
@@ -221,6 +227,8 @@ Màu đen là `rgb(0,0,0)` còn màu trắng là `rgb(255,255,255)`
 <p style="background-color:rgb(120, 120, 120); color:rgb(255, 255, 255);">rgb(120, 120, 120)</p>
 ```
 
+![Ảnh chụp Màn hình 2021-01-06 lúc 12.49.54.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/06-12-50-11-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-01-06%20lu%CC%81c%2012.49.54.png)
+
 - **Giá trị HEX**
 
 Màu sắc được định dạng bằng cơ số 16 dưới dạng:
@@ -235,6 +243,8 @@ Màu sắc được định dạng bằng cơ số 16 dưới dạng:
 <p style="background-color:#ff0000; color:#ffffff;">#ff0000</p>
 <p style="background-color:#3cb371; color:#ffffff;">#3cb371</p>
 ```
+
+![Ảnh chụp Màn hình 2021-01-06 lúc 12.49.20.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/06-12-49-35-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-01-06%20lu%CC%81c%2012.49.20.png)
 
 - **Giá trị HSL**
 
@@ -264,6 +274,8 @@ rgba (red, green, blue, alpha)
 <p style="background-color:rgba(255, 99, 71, 0.8); color:#000000;">rgba(255, 99, 71, 0.8)</p>
 <p style="background-color:rgba(255, 99, 71, 1); color:#000000;">rgba(255, 99, 71, 1)</p>
 ```
+
+![Ảnh chụp Màn hình 2021-01-06 lúc 12.48.31.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/06-12-48-44-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-01-06%20lu%CC%81c%2012.48.31.png)
 
 - **Giá trị màu HSLA**
 
