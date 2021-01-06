@@ -1,0 +1,55 @@
+## Vị trí đặt CSS
+
+Có 3 cách để thêm CSS cho HTML:
+
+- **Enternal CSS** ( *Định dạng bên ngoài* )
+
+```html
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+```
+
+> 💡 Bạn có thể thay đổi CSS của cá trang bằng cách này chỉ với một dòng, và đây là cách **tối ưu nhất**, `href="đường dẫn file css của bạn"`
+
+Ví dụ trong file `style.css` như sau:
+
+```css
+h1 {
+ color: navy;
+ margin-left: 20px;
+}
+```
+
+> ⚠️ Bạn không được thêm khoảng trắng kết thúc lệnh như này `margin-left: 20px ;` mà phải viết như này `margin-left: 20px;`
+
+- **Internal CSS** (*Định dạng nội bộ*)
+
+```html
+<head>
+<style>
+body {
+ background-color: linen;
+}
+
+h1 {
+ color: maroon;
+ margin-left: 40px;
+}
+</style>
+</head>
+```
+
+> 💡 Được định nghĩa trong phần tử `<style></style>` nàm trong thẻ `<head>`
+
+- **Inline CSS** (*Định dạng nội dòng*)
+
+```html
+<h1 style="color:blue;margin-left:30px;">Tiêu đề</h1>
+```
+
+> 💡Dùng thể thay đổi cho một thẻ nhất định 
+
+**Thứ tự phân tầng như sau :** **`Inline`** > **`Internal`** > **`Enternal`**
+
+> 💡 có nghĩa là `Inline` là được ưu tiên nhất sau đó đến `Internal` rồi `Enternal`

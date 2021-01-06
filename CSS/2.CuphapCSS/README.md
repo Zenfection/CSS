@@ -1,0 +1,106 @@
+# Cú pháp CSS
+
+Cú pháp của CSS bao gồm `selector` (*chọn*) và `declaration` (*khai báo*)
+
+Ví dụ:
+
+```css
+p {
+  color: red;
+  text-align: center;
+}
+```
+
+kết thúc một câu lệnh là dấu `;`  và khối khai báo nằm trong dấu `{}`
+
+Có 3 cách để chọn 1 phần tử trong CSS đó là :
+
+- **Element Selector** (*dựa theo tên phần tử*)
+
+```css
+p {
+  text-align: center;
+  color: red;
+}   
+```
+
+- **ID Selector** (*dựa theo id*) : bắt đầu bằng dấu `#` cho id, tương ứng với khai báo html là `id="para1"`
+
+```css
+#para1 {
+  text-align: center;
+  color: red;
+}
+```
+
+> ⚠️ Tên `id` không thể bắt đầu bằng **số**
+
+- **Class Selector** (*dựa trên class*) : bắt bằng bằng dấu `.` cho class, tương ứng với khai báo html là `class="center"`
+
+```css
+.center {
+  text-align: center;
+  color: red;
+}
+```
+
+> 💊 Bạn cũng có thể chỉ định những phần tử nhất định chịu tác dụng của `class.` ví dụ như dưới đây, chỉ có `<p class="center">` là thực thi
+
+```css
+p.center {
+  text-align: center;
+  color: red;
+}
+```
+
+> 💊 Phần tử HTML có thể đặt nhiều hơn 1 class ví dụ là phần tử `<p>` được tạo theo 2 kiểu `class="center"` và `class="large"`
+
+```html
+<p class="center large">Đoạn văn sử dụng hai class.</p>
+```
+
+> ⚠️ Tên `class` không thể bắt đầu bằng **số**
+
+==>  ⚠️ Cả `id` và `class` đều không thể bắt đầu bằng số
+
+Nếu các phần tử có cùng định dạng style thế này:
+
+```css
+h1 {
+ text-align: center;
+ color: red;
+}
+
+h2 {
+ text-align: center;
+ color: red;
+}
+
+p {
+ text-align: center;
+ color: red;
+}
+```
+
+Thì ta hoàn toàn có thể viết ngắn gọn thế này:
+
+```css
+h1, h2, p {
+ text-align: center;
+ color: red;
+}
+```
+
+> 💊 Trong CSS, comment ta dùng giống ngôn ngữ C,C++ có 2 cách comment chính như sau:
+
+```css
+p {
+ color: red;
+ /* Đây là bình luận một dòng */
+ text-align: center;
+}
+
+/* Đây là
+bình luận
+nhiều dòng */
+```

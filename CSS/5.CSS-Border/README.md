@@ -1,0 +1,125 @@
+## CSS-Backgroud
+
+Dùng để **biểu diễn hiệu ứng nền** cho các phần tử, chỉ cần nhớ **5** đặc tính sau:
+
+1. `background-color` : *màu nền*
+2. `background-image` : *ảnh nền*
+3. `background-repeat` : lặp lại ảnh nền
+4. `background-attachment` : cố định vị trí ảnh
+5. `background-position` : vị trí ảnh
+
+Cụ thể 6 đặc tính như sau:
+
+- **Màu nền** (`background-color`)
+
+```css
+body {
+ background-color: lightblue;
+}
+```
+
+![Ảnh chụp Màn hình 2021-01-06 lúc 18.14.32.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/06-18-15-07-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-01-06%20lu%CC%81c%2018.14.32.png)
+
+- **Ảnh nền** (`background-image`)
+
+```css
+body {
+ background-image: url("conmeocute.png");
+}
+```
+
+![Ảnh chụp Màn hình 2021-01-06 lúc 18.17.34.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/06-18-17-41-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-01-06%20lu%CC%81c%2018.17.34.png)
+
+> 💡 Màu nền của nó là một bức ảnh dạng *png,jpg...*
+> 
+> ⚠️ **Lưu ý**: Khi dùng ảnh nền đừng để chữ bị chèn để cho khó đọc
+
+- **Lặp lại ảnh nền** (`backgroud-repeat`)
+
+💊 `background-image` mặc định sẽ lặp đi lặp lại **cả 2 theo chiều ngang vào dọc** để che phủ toàn bộ phần tử, nếu ta muốn nó lặp chỉ một chiều ngang hãy dùng `background-repeat: repeat-x;`, chiều dọc hãy dùng `background-repeat: repeat-y;` như sau:
+
+```css
+body {
+ background-image: url("conmeocute.png");
+ background-repeat: repeat-x; /*lặp lại theo chiều ngang*/
+}
+```
+
+```css
+body {
+ background-image: url("conmeocute.png");
+ background-repeat: repeat-y; /*lặp lại theo chiều dọc*/
+}
+```
+
+☣️ Nếu ta không muốn **lặp lại ảnh** thì hãy dùng `background-repeat` như sau:
+
+```css
+body {
+ background-image: url("conmeocute.png");
+ background-repeat: no-repeat; /*không lặp lại ảnh*/
+}
+```
+
+- Vị trí ảnh (`backgroud-position`)
+
+<img title="" src="https://st.quantrimang.com/photos/image/2018/06/15/html-anh-nen.jpg" alt="" width="338">
+
+>  💡Ở ví dụ trên, ảnh chỉ xuất hiện một lần và hiển thị cùng chỗ với văn bản gây ra khó nhìn vậy nên ta đổi vị trí ảnh bằng `background-position` như sau:
+
+```css
+body {
+ background-image: url("img_tree.jpg");
+ background-repeat: no-repeat;
+ background-position: right top;
+ margin-right: 200px;
+}
+```
+
+<img src="https://st.quantrimang.com/photos/image/2018/06/15/html-anh-nen-1.jpg" title="" alt="" width="521">
+
+- **Cố định vị trí ảnh** (`background-attachment`)
+
+Trong nhiều trường hợp, ảnh của bạn bị cuộn theo trang, để giải quyết tình trạng đó bạn dùng `background-attachment` như sau:
+
+```css
+body {
+ background-image: url("img_tree.jpg");
+ background-repeat: no-repeat;
+ background-position: right top;
+ background-attachment: fixed;
+}
+```
+
+<img title="" src="https://st.quantrimang.com/photos/image/2018/06/15/html-anh-nen-cuon-trang.jpg" alt="" width="519">
+
+> 💊 Để rút ngắn code, bạn có thể sử dụng code theo thứ tự sau đây :
+> 
+> `background-color`-`background-image`-`background-repeat`-`background-attachment` - `background-position`
+
+```css
+body {
+ background: #ffffff url("img_tree.jpg") no-repeat right top;
+}
+```
+
+---
+
+## CSS-Border
+
+Dùng để biểu diễn **độ rộng và màu sắc cho viền** của một phần tử, có các đặc tính sau:
+
+1. `dotter` : *đường chấm chấm*
+2. `dashed` : *đường đứt nét*
+3. `soild` : *đường nét thẳng*
+4. `double` : *đường kép*
+5. `groove`  : đường kép nhẹ
+6. `ridge` : đường kép mỏng
+7. `inset` : đường kép đậm ở trên
+8. `outset` :  đường kép đậm ở dưới
+9. `none` : *không viền gì cả*
+10. `hidden` : *ẩn đường viền*
+
+![](https://st.quantrimang.com/photos/image/2018/06/16/css-border-style-vi-du.jpg)
+
+> ⚠️ Không một đặc tính `border` nào phía trên tác dụng nếu bạn không áp dụng nó
