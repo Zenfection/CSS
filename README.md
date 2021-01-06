@@ -14,4 +14,4 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
 ### ——CSS3 cơ bản
 
-             ➡ [Bài 1.Giới thiệu CSS]()
+             ➡ [Bài 1.Giới thiệu CSS](https://github.com/Zenfection/CSS/tree/master/1.GioithieuCSS)
