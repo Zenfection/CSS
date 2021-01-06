@@ -14,17 +14,17 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
 ### ——CSS3 cơ bản
 
-            ➡ [Bài 1.Giới thiệu CSS](https://github.com/Zenfection/CSS/blob/master/BasicCSS/1.GioithieuCSS.md)
+            ➡ [Bài 1.Giới thiệu](https://github.com/Zenfection/CSS/blob/master/BasicCSS/1.GioithieuCSS.md)
 
-            ➡ [Bài 2.Cú pháp CSS](https://github.com/Zenfection/CSS/blob/master/BasicCSS/2.CuphapCSS.md)
+            ➡ [Bài 2.Cú pháp](https://github.com/Zenfection/CSS/blob/master/BasicCSS/2.CuphapCSS.md)
 
-            ➡ [Bài 3.Vị trí CSS](https://github.com/Zenfection/CSS/blob/master/BasicCSS/3.VitriCSS.md)
+            ➡ [Bài 3.Vị trí](https://github.com/Zenfection/CSS/blob/master/BasicCSS/3.VitriCSS.md)
 
-            ➡ [Bài 4. CSS-Color](https://github.com/Zenfection/CSS/blob/master/BasicCSS/4.CSS-Color.md)
+            ➡ [Bài 4.Color](https://github.com/Zenfection/CSS/blob/master/BasicCSS/4.CSS-Color.md)
 
-            ➡ [Bài 5.CSS-Background](https://github.com/Zenfection/CSS/blob/master/BasicCSS/5.CSS-Background.md)
+            ➡ [Bài 5.Background](https://github.com/Zenfection/CSS/blob/master/BasicCSS/5.CSS-Background.md)
 
-            ➡ [Bài 6.CSS-Border](https://github.com/Zenfection/CSS/blob/master/BasicCSS/6.CSS-Border.md)
+            ➡ [Bài 6.Border](https://github.com/Zenfection/CSS/blob/master/BasicCSS/6.CSS-Border.md)
 
             ➡ Bài 7.Margin
 
