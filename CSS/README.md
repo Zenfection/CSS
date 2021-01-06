@@ -354,7 +354,7 @@ body {
 
 - Vị trí ảnh (`backgroud-position`)
 
-<img src="https://st.quantrimang.com/photos/image/2018/06/15/html-anh-nen.jpg" title="" alt="" width="272">
+<img title="" src="https://st.quantrimang.com/photos/image/2018/06/15/html-anh-nen.jpg" alt="" width="338">
 
 >  💡Ở ví dụ trên, ảnh chỉ xuất hiện một lần và hiển thị cùng chỗ với văn bản gây ra khó nhìn vậy nên ta đổi vị trí ảnh bằng `background-position` như sau:
 
@@ -367,7 +367,7 @@ body {
 }
 ```
 
-![](https://st.quantrimang.com/photos/image/2018/06/15/html-anh-nen-1.jpg)
+<img src="https://st.quantrimang.com/photos/image/2018/06/15/html-anh-nen-1.jpg" title="" alt="" width="521">
 
 - **Cố định vị trí ảnh** (`background-attachment`)
 
@@ -382,7 +382,7 @@ body {
 }
 ```
 
-![](https://st.quantrimang.com/photos/image/2018/06/15/html-anh-nen-cuon-trang.jpg)
+<img title="" src="https://st.quantrimang.com/photos/image/2018/06/15/html-anh-nen-cuon-trang.jpg" alt="" width="519">
 
 > 💊 Để rút ngắn code, bạn có thể sử dụng code theo thứ tự sau đây :
 > 
