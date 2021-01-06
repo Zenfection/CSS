@@ -22,4 +22,4 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
             ➡ [Bài 4. CSS-Color](https://github.com/Zenfection/CSS/blob/master/BasicCSS/4.CSS-Color.md)
 
-            ➡ [Bài 5.CSS-Border](https://github.com/Zenfection/CSS/blob/master/BasicCSS/5.CSS-Border.md)
+            ➡ [Bài 5.CSS-Background](https://github.com/Zenfection/CSS/blob/master/BasicCSS/5.CSS-Background.md)
