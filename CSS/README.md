@@ -65,7 +65,7 @@ p.center {
 > 💊 Phần tử HTML có thể đặt nhiều hơn 1 class ví dụ là phần tử `<p>` được tạo theo 2 kiểu `class="center"` và `class="large"`
 
 ```html
-<p class="center large">Đoạn văn sử dụng hai lớp.</p>
+<p class="center large">Đoạn văn sử dụng hai class.</p>
 ```
 
 > ⚠️ Tên `class` không thể bắt đầu bằng **số**
@@ -182,7 +182,7 @@ Ta có thể định nghĩa màu sắc bằng những chuẩn khác nhau như : 
 
 ### Ta có thể đĩnh nghĩa color phổ biến như sau :
 
-- **Màu nền** : Sử dụng `color:"_màu_";`
+- **Màu nền** : Sử dụng `background-color:"_màu_";`
 
 ```html
 <h1 style="background-color:DodgerBlue;">Xin chào</h1>
@@ -208,8 +208,8 @@ Ta có thể định nghĩa màu sắc bằng những chuẩn khác nhau như : 
 
 ### Ta có các cách định nghĩa màu sau đây:
 
-- **Tên màu** : Ta có thể dùng 140 tên màu mặc định của HTML, [tham khảo tại đây](https://quantrimang.com/mau-sac-trong-html-149960), *ví dụ ở trên*
-- **Giá trị RGB** : Màu RGB có cú pháp và công thức nhứ sau
+- **<u>Tên màu</u>** : Ta có thể dùng 140 tên màu mặc định của HTML, [tham khảo tại đây](https://quantrimang.com/mau-sac-trong-html-149960), *ví dụ ở trên*
+- **<u>Giá trị RGB</u>** : Màu RGB có cú pháp và công thức nhứ sau
 
 ```textile
 rgb(red,green,blue)
@@ -229,7 +229,7 @@ Màu đen là `rgb(0,0,0)` còn màu trắng là `rgb(255,255,255)`
 
 ![Ảnh chụp Màn hình 2021-01-06 lúc 12.49.54.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/06-12-50-11-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-01-06%20lu%CC%81c%2012.49.54.png)
 
-- **Giá trị HEX**
+- **<u>Giá trị HEX</u>**
 
 Màu sắc được định dạng bằng cơ số 16 dưới dạng:
 
@@ -246,7 +246,7 @@ Màu sắc được định dạng bằng cơ số 16 dưới dạng:
 
 ![Ảnh chụp Màn hình 2021-01-06 lúc 12.49.20.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/06-12-49-35-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-01-06%20lu%CC%81c%2012.49.20.png)
 
-- **Giá trị HSL**
+- **<u>Giá trị HSL</u>**
 
 Màu sắc được định định dạng bằng các **hue** (*vùng màu*), **saturation** (*độ bão hoà*), **lightness** (*độ sáng*)
 
@@ -258,7 +258,7 @@ Màu sắc được định định dạng bằng các **hue** (*vùng màu*), *
 
 Không cần học qua sâu, có thể tìm hiểu kỹ hơn [tại đây](https://www.w3schools.com/colors/colors_hsl.asp)
 
-- **Giá trị RGBA**
+- **<u>Giá trị RGBA</u>**
 
 Là màu sắc mở rộng của **RGB**, thêm `aplha` (*độ trong suốt của màu sắc*) nằm trong khoảng từ `0.0 tới 1.0`, với cú pháp:
 
@@ -277,7 +277,7 @@ rgba (red, green, blue, alpha)
 
 ![Ảnh chụp Màn hình 2021-01-06 lúc 12.48.31.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/06-12-48-44-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-01-06%20lu%CC%81c%2012.48.31.png)
 
-- **Giá trị màu HSLA**
+- **<u>Giá trị màu HSLA</u>**
 
 Là màu sắc mở rộng của **HSL**, thêm `aplha` (*độ trong suốt của màu sắc*) nằm trong khoảng từ `0.0 tới 1.0`, với cú pháp:
 
@@ -288,5 +288,126 @@ hsl(hue, saturation, lightness, alpha)
 ☣️ **Chỉ cần nhớ RGB và HEX là đủ rồi**
 
 ---
+
+## CSS-Backgroud
+
+Dùng để **biểu diễn hiệu ứng nền** cho các phần tử, chỉ cần nhớ **5** đặc tính sau:
+
+1. `background-color` : *màu nền*
+2. `background-image` : *ảnh nền*
+3. `background-repeat` : lặp lại ảnh nền
+4. `background-attachment` : cố định vị trí ảnh
+5. `background-position` : vị trí ảnh
+
+Cụ thể 6 đặc tính như sau:
+
+- **Màu nền** (`background-color`)
+
+```css
+body {
+ background-color: lightblue;
+}
+```
+
+![Ảnh chụp Màn hình 2021-01-06 lúc 18.14.32.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/06-18-15-07-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-01-06%20lu%CC%81c%2018.14.32.png)
+
+- **Ảnh nền** (`background-image`)
+
+```css
+body {
+ background-image: url("conmeocute.png");
+}
+```
+
+![Ảnh chụp Màn hình 2021-01-06 lúc 18.17.34.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/01/06-18-17-41-A%CC%89nh%20chu%CC%A3p%20Ma%CC%80n%20hi%CC%80nh%202021-01-06%20lu%CC%81c%2018.17.34.png)
+
+> 💡 Màu nền của nó là một bức ảnh dạng *png,jpg...*
+> 
+> ⚠️ **Lưu ý**: Khi dùng ảnh nền đừng để chữ bị chèn để cho khó đọc
+
+- **Lặp lại ảnh nền** (`backgroud-repeat`)
+
+💊 `background-image` mặc định sẽ lặp đi lặp lại **cả 2 theo chiều ngang vào dọc** để che phủ toàn bộ phần tử, nếu ta muốn nó lặp chỉ một chiều ngang hãy dùng `background-repeat: repeat-x;`, chiều dọc hãy dùng `background-repeat: repeat-y;` như sau:
+
+```css
+body {
+ background-image: url("conmeocute.png");
+ background-repeat: repeat-x; /*lặp lại theo chiều ngang*/
+}
+```
+
+```css
+body {
+ background-image: url("conmeocute.png");
+ background-repeat: repeat-y; /*lặp lại theo chiều dọc*/
+}
+```
+
+☣️ Nếu ta không muốn **lặp lại ảnh** thì hãy dùng `background-repeat` như sau:
+
+```css
+body {
+ background-image: url("conmeocute.png");
+ background-repeat: no-repeat; /*không lặp lại ảnh*/
+}
+```
+
+- Vị trí ảnh (`backgroud-position`)
+
+<img src="https://st.quantrimang.com/photos/image/2018/06/15/html-anh-nen.jpg" title="" alt="" width="272">
+
+>  💡Ở ví dụ trên, ảnh chỉ xuất hiện một lần và hiển thị cùng chỗ với văn bản gây ra khó nhìn vậy nên ta đổi vị trí ảnh bằng `background-position` như sau:
+
+```css
+body {
+ background-image: url("img_tree.jpg");
+ background-repeat: no-repeat;
+ background-position: right top;
+ margin-right: 200px;
+}
+```
+
+![](https://st.quantrimang.com/photos/image/2018/06/15/html-anh-nen-1.jpg)
+
+- **Cố định vị trí ảnh** (`background-attachment`)
+
+Trong nhiều trường hợp, ảnh của bạn bị cuộn theo trang, để giải quyết tình trạng đó bạn dùng `background-attachment` như sau:
+
+```css
+body {
+ background-image: url("img_tree.jpg");
+ background-repeat: no-repeat;
+ background-position: right top;
+ background-attachment: fixed;
+}
+```
+
+![](https://st.quantrimang.com/photos/image/2018/06/15/html-anh-nen-cuon-trang.jpg)
+
+> 💊 Để rút ngắn code, bạn có thể sử dụng code theo thứ tự sau đây :
+> 
+> `background-color`-`background-image`-`background-repeat`-`background-attachment` - `background-position`
+
+```css
+body {
+ background: #ffffff url("img_tree.jpg") no-repeat right top;
+}
+```
+
+---
+
+## CSS-Border
+
+
+
+---
+
+## CSS-Margin
+
+
+
+---
+
+## CSS-Padding
 
 
