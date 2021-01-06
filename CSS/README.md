@@ -33,7 +33,7 @@ p {
 }   
 ```
 
-- **ID Selector** (*dựa theo id*) : bắt đầu bằng dấu `#` cho id, tương tức với khai báo html là `id="para1"`
+- **ID Selector** (*dựa theo id*) : bắt đầu bằng dấu `#` cho id, tương ứng với khai báo html là `id="para1"`
 
 ```css
 #para1 {
@@ -44,7 +44,7 @@ p {
 
 > ⚠️ Tên `id` không thể bắt đầu bằng **số**
 
-- **Class Selector** (*dựa trên class*) : bắt bằng bằng dấu `.` cho class, tương tức với khai báo html là `class="center"`
+- **Class Selector** (*dựa trên class*) : bắt bằng bằng dấu `.` cho class, tương ứng với khai báo html là `class="center"`
 
 ```css
 .center {
