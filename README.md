@@ -44,15 +44,15 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
             ➡ [Bài 15.Link](https://github.com/Zenfection/CSS/blob/master/BasicCSS/15.Link.md)
 
-            ➡ Bài 16.List
+            ➡ [Bài 16.List](https://github.com/Zenfection/CSS/blob/master/BasicCSS/16.List.md)
 
-            ➡ Bài 17.Table
+            ➡ [Bài 17.Table](https://github.com/Zenfection/CSS/blob/master/BasicCSS/17.Table.md)
 
-            ➡ Bài 18.Display
+            ➡ [Bài 18.Display](https://github.com/Zenfection/CSS/blob/master/BasicCSS/18.Display.md)
 
-            ➡ Bài 19.Max-width
+            ➡ [Bài 19.Max-width](https://github.com/Zenfection/CSS/blob/master/BasicCSS/19.Max_width.md)
 
-            ➡ Bài 20.Position
+            ➡ [Bài 20.Position](https://github.com/Zenfection/CSS/blob/master/BasicCSS/20.Position.md)
 
             ➡ Bài 21.Overflow
 
