@@ -30,13 +30,13 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
             ➡ [Bài 8.Padding](https://github.com/Zenfection/CSS/blob/master/BasicCSS/8.Padding.md)
 
-            ➡ Bài 9.Width và Height
+            ➡ [Bài 9.Width và Height](https://github.com/Zenfection/CSS/blob/master/BasicCSS/9.Width%26Height.md)
 
-            ➡ Bài 10.Box Model
+            ➡ [Bài 10.Box Model](https://github.com/Zenfection/CSS/blob/master/BasicCSS/10.Box%20Model.md)
 
-            ➡ Bài 11.Outline
+            ➡ [Bài 11.Outline](https://github.com/Zenfection/CSS/blob/master/BasicCSS/11.Outline.md)
 
-            ➡ Bài 12.Text
+            ➡ [Bài 12.Text](https://github.com/Zenfection/CSS/blob/master/BasicCSS/12.Text.md)
 
             ➡ Bài 13.Font
 
