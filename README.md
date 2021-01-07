@@ -38,11 +38,11 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
             ➡ [Bài 12.Text](https://github.com/Zenfection/CSS/blob/master/BasicCSS/12.Text.md)
 
-            ➡ Bài 13.Font
+            ➡ [Bài 13.Font](https://github.com/Zenfection/CSS/blob/master/BasicCSS/13.Font.md)
 
-            ➡ Bài 14.Icon
+            ➡ [Bài 14.Icon](https://github.com/Zenfection/CSS/blob/master/BasicCSS/14.Icon.md)
 
-            ➡ Bài 15.Link
+            ➡ [Bài 15.Link](https://github.com/Zenfection/CSS/blob/master/BasicCSS/15.Link.md)
 
             ➡ Bài 16.List
 
