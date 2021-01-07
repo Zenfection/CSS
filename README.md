@@ -26,7 +26,7 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
             ➡ [Bài 6.Border](https://github.com/Zenfection/CSS/blob/master/BasicCSS/6.Border.md)
 
-            ➡ [Bài 7.Margin](https://github.com/Zenfection/CSS/blob/master/BasicCSS/6.Margin.md)
+            ➡ [Bài 7.Margin](https://github.com/Zenfection/CSS/blob/master/BasicCSS/7.Margin.md)
 
             ➡ [Bài 8.Padding](https://github.com/Zenfection/CSS/blob/master/BasicCSS/8.Padding.md)
 
