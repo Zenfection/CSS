@@ -14,13 +14,13 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
 ### ——CSS3 cơ bản
 
-            ➡ [Bài 1.Giới thiệu](https://github.com/Zenfection/CSS/blob/master/BasicCSS/1.GioithieuCSS.md)
+            ➡ [Bài 1.Giới thiệu](https://github.com/Zenfection/CSS/blob/master/BasicCSS/1.Gioithieu.md)
 
-            ➡ [Bài 2.Cú pháp](https://github.com/Zenfection/CSS/blob/master/BasicCSS/2.CuphapCSS.md)
+            ➡ [Bài 2.Cú pháp](https://github.com/Zenfection/CSS/blob/master/BasicCSS/2.Cuphap.md)
 
-            ➡ [Bài 3.Vị trí](https://github.com/Zenfection/CSS/blob/master/BasicCSS/3.VitriCSS.md)
+            ➡ [Bài 3.Vị trí](https://github.com/Zenfection/CSS/blob/master/BasicCSS/3.Vitri.md)
 
-            ➡ [Bài 4.Color](https://github.com/Zenfection/CSS/blob/master/BasicCSS/4.CSS-Color.md)
+            ➡ [Bài 4.Color](https://github.com/Zenfection/CSS/blob/master/BasicCSS/4.Color.md)
 
             ➡ [Bài 5.Background](https://github.com/Zenfection/CSS/blob/master/BasicCSS/5.Background.md)
 
