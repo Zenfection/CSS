@@ -56,13 +56,13 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
             ➡ [Bài 21.Overflow](https://github.com/Zenfection/CSS/blob/master/BasicCSS/21.Overflow.md)
 
-            ➡ Bài 22.Float và Clear (*10/1/2021*)
+            ➡ [Bài 22.Float và Clear](https://github.com/Zenfection/CSS/blob/master/BasicCSS/22.Overflow.md)
 
-            ➡ Bài 23.Inline Block (*11/1/2021*)
+            ➡ [Bài 23.Inline Block](https://github.com/Zenfection/CSS/blob/master/BasicCSS/23.Inline%20Block.md)
 
-            ➡ Bài 24.Align (*12/1/2021*)
+            ➡ [Bài 24.Align](https://github.com/Zenfection/CSS/blob/master/BasicCSS/24.Align.md)
 
-            ➡ Bài 25.Combinator (*13/1/2021*)
+            ➡ [Bài 25.Combinator](https://github.com/Zenfection/CSS/blob/master/BasicCSS/25.Combinator.md)
 
             ➡ Bài 26.Pseudo-Class (*14/1/2021*)
 
