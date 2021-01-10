@@ -56,7 +56,7 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
             ➡ [Bài 21.Overflow](https://github.com/Zenfection/CSS/blob/master/BasicCSS/21.Overflow.md)
 
-            ➡ [Bài 22.Float và Clear](https://github.com/Zenfection/CSS/blob/master/BasicCSS/22.Overflow.md)
+            ➡ [Bài 22.Float và Clear]([Bài 22.Float và Clear](https://github.com/Zenfection/CSS/blob/master/BasicCSS/22.Float%26Clear.md))
 
             ➡ [Bài 23.Inline Block](https://github.com/Zenfection/CSS/blob/master/BasicCSS/23.Inline%20Block.md)
 
