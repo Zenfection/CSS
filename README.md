@@ -64,7 +64,7 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
             ➡ [Bài 25.Combinator](https://github.com/Zenfection/CSS/blob/master/BasicCSS/25.Combinator.md)
 
-            ➡ Bài 26.Pseudo-Class (*14/1/2021*)
+            ➡ [Bài 26.Pseudo-Class](https://github.com/Zenfection/CSS/blob/master/BasicCSS/26.Pseudo-Class.md)
 
             ➡ Bài 27.Pseudo-Element (*15/1/2021*)
 
