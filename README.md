@@ -66,13 +66,13 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
             ➡ [Bài 26.Pseudo-Class](https://github.com/Zenfection/CSS/blob/master/BasicCSS/26.Pseudo-Class.md)
 
-            ➡ Bài 27.Pseudo-Element (*15/1/2021*)
+            ➡ [Bài 27.Pseudo-Element](https://github.com/Zenfection/CSS/blob/master/BasicCSS/27.Pseudo-Element.md)
 
-            ➡ Bài 28.Opacity (*16/1/2021*)
+            ➡ [Bài 28.Opacity](https://github.com/Zenfection/CSS/blob/master/BasicCSS/28.Opacity.md)
 
-            ➡ Bài 29.Navigation Bar (*17/1/2021*)
+            ➡ [Bài 29.Navigation Bar](https://github.com/Zenfection/CSS/blob/master/BasicCSS/29.Navigation%20Bar.md)
 
-            ➡ Bài 30.Dropdown (*18/1/2021*)
+            ➡ [Bài 30.Dropdown](https://github.com/Zenfection/CSS/blob/master/BasicCSS/30.Dropdown.md)
 
             ➡ Bài 31.Image Gallery (*19/1/2021*)
 
