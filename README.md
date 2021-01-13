@@ -74,11 +74,11 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
             ➡ [Bài 30.Dropdown](https://github.com/Zenfection/CSS/blob/master/BasicCSS/30.Dropdown.md)
 
-            ➡ Bài 31.Image Gallery (*19/1/2021*)
+            ➡ [Bài 31.Image Gallery](https://github.com/Zenfection/CSS/blob/master/BasicCSS/31.Image%20Gallery.md)
 
-            ➡ Bài 32.Image Sprite (*20/1/2021*)
+            ➡ [Bài 32.Image Sprite](https://github.com/Zenfection/CSS/blob/master/BasicCSS/32.Image%20Sprite.md)
 
-            ➡ Bài 33.Attribute Selector (*21/1/2021*)
+            ➡ [Bài 33.Attribute Selector](https://github.com/Zenfection/CSS/blob/master/BasicCSS/32.Attribute%20Selector.md)
 
             ➡ Bài 34.Form (*22/1/2021*)
 
