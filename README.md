@@ -78,7 +78,7 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
             ➡ [Bài 32.Image Sprite](https://github.com/Zenfection/CSS/blob/master/BasicCSS/32.Image%20Sprite.md)
 
-            ➡ [Bài 33.Attribute Selector](https://github.com/Zenfection/CSS/blob/master/BasicCSS/32.Attribute%20Selector.md)
+            ➡ [Bài 33.Attribute Selector](https://github.com/Zenfection/CSS/blob/master/BasicCSS/33.Attribute%20Selector.md)
 
             ➡ Bài 34.Form (*22/1/2021*)
 
