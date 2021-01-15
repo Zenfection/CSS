@@ -6,7 +6,7 @@
 
 | Tác giả     | Phóng tác  | Năm viết |
 | ----------- | ---------- | -------- |
-| Quantrimang | Zenfection | 2020     |
+| Quantrimang | Zenfection | 2021     |
 
 Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giáo trình của Quantrimang, mình là người phóng tác lại nó cho nó ngắn gọn hơn, chủ yếu là tối ưu nó hơn, dĩ nhiên mình sẽ thêm khá nhiều thứ vào đó, đến với **`CSS3 for Kid`** bạn sẽ hiểu từ căn bản đến thành thạo về CSS3. Chúc bạn học tập tốt nhé và sau đây là: 
 
