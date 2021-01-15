@@ -92,34 +92,34 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
 ### ——CSS3 nâng cao
 
-            ➡ Bài 1.Rounded Corner
+            ➡ Bài 1.Rounded Corner
 
-            ➡ Bài 2.Border Image
+            ➡ Bài 2.Border Image
 
-            ➡ Bài 3.Multiple Background
+            ➡ Bài 3.Multiple Background
 
-            ➡ Bài 4.Color
-            
-            ➡ Bài 5.Gradient
+            ➡ Bài 4.Color
 
-            ➡ Bài 6.Shadow Effect
+            ➡ Bài 5.Gradient
 
-            ➡ Bài 7.Text Effect
+            ➡ Bài 6.Shadow Effect
 
-            ➡ Bài 8.Web Font
+            ➡ Bài 7.Text Effect
 
-            ➡ Bài 9.2D Transform
+            ➡ Bài 8.Web Font
 
-            ➡ Bài 10.3D Transform
+            ➡ Bài 9.2D Transform
 
-            ➡ Bài 11.Transition
+            ➡ Bài 10.3D Transform
 
-            ➡ Bài 12.Animation
+            ➡ Bài 11.Transition
 
-            ➡ Bài 13.Tooltip
+            ➡ Bài 12.Animation
 
-            ➡ Bài 14.Flexbox
+            ➡ Bài 13.Tooltip
 
-            ➡ Bài 15.Button
+            ➡ Bài 14.Flexbox
 
-            ➡ Bài 16.@media
+            ➡ Bài 15.Button
+
+            ➡ Bài 16.@media
