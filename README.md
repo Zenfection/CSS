@@ -92,34 +92,34 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
 ### ——CSS3 nâng cao
 
-            ➡ Bài 1.Rounded Corner
+            ➡ Bài 1.Rounded Corner (*31/1/2021*)
 
-            ➡ Bài 2.Border Image
+            ➡ Bài 2.Border Image (*31/2/2021*)
 
-            ➡ Bài 3.Multiple Background
+            ➡ Bài 3.Multiple Background (*14/2/2021*)
 
-            ➡ Bài 4.Color
+            ➡ Bài 4.Color (*14/2/2021*)
 
-            ➡ Bài 5.Gradient
+            ➡ Bài 5.Gradient (*21/2/2021*)
 
-            ➡ Bài 6.Shadow Effect
+            ➡ Bài 6.Shadow Effect (*21/2/2021*)
 
-            ➡ Bài 7.Text Effect
+            ➡ Bài 7.Text Effect (*28/2/2021*)
 
-            ➡ Bài 8.Web Font
+            ➡ Bài 8.Web Font (*28/2/2021*)
 
-            ➡ Bài 9.2D Transform
+            ➡ Bài 9.2D Transform (*7/3/2021*)
 
-            ➡ Bài 10.3D Transform
+            ➡ Bài 10.3D Transform (*7/3/2021*)
 
-            ➡ Bài 11.Transition
+            ➡ Bài 11.Transition (*14/3/2021*)
 
-            ➡ Bài 12.Animation
+            ➡ Bài 12.Animation (*14/3/2021*)
 
-            ➡ Bài 13.Tooltip
+            ➡ Bài 13.Tooltip (*21/3/2021*)
 
-            ➡ Bài 14.Flexbox
+            ➡ Bài 14.Flexbox (*21/3/2021*)
 
-            ➡ Bài 15.Button
+            ➡ Bài 15.Button (*28/3/2021*)
 
-            ➡ Bài 16.@media
+            ➡ Bài 16.@media (*28/3/2021*)
