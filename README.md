@@ -94,9 +94,9 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
             ➡ Bài 1.Rounded Corner (*31/1/2021*)
 
-            ➡ Bài 2.Border Image (*31/2/2021*)
+            ➡ Bài 2.Border Image (*31/1/2021*)
 
-            ➡ Bài 3.Multiple Background (*14/2/2021*)
+            ➡ Bài 3.Multiple Background (*7/2/2021*)
 
             ➡ Bài 4.Color (*14/2/2021*)
 
