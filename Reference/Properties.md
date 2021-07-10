@@ -14,7 +14,7 @@ Value chung là `initial` và `inherit`
 - [aniamtion-\*](https://www.w3schools.com/cssref/css3_pr_animation.asp) : `name` `duration` `timing-function` `delay` `interation-count` `direction` `fill mode` `play-state`
   
   <details>
-    <summary"><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png">Cụ thể các thuộc tính</summary>
+    <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
   
   <br>
   
