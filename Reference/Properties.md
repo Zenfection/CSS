@@ -15,21 +15,22 @@ Value chung là `initial` và `inherit`
   
   <details>
     <summary>Cụ thể các thuộc tính</summary>
-
-    <br>
-
-  | Property (animation)                                                                       | Description                                                                                          | Value                                                                                                                                                       |
-  | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-  | [name](https://www.w3schools.com/cssref/css3_pr_animation-name.asp)                        | Tên *@keyframe* của hoạt ảnh                                                                         | *keyframename*<br>`none`<br>                                                                                                                                |
-  | [duration](https://www.w3schools.com/cssref/css3_pr_animation-duration.asp)                | Thời gian hoàn thành một chu kỳ                                                                      | *time*                                                                                                                                                      |
-  | [timing-function](https://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp)  | Tốc độ đường cong của hoạt ảnh                                                                       | `linear`<br>`ease`<br>`ease-in`<br>`ease-out`<br>`ease-in-out`<br>`step-start`<br>`step-end`<br>`steps`(*int*, *start*\|*end*)<br>`cubic-bezier`(*n,n,n,n*) |
-  | [delay](https://www.w3schools.com/cssref/css3_pr_animation-delay.asp)                      | Độ trễ khi bắt đầu hoạt ảnh                                                                          | *time*<br>                                                                                                                                                  |
-  | [interation-count](https://www.w3schools.com/cssref/css3_pr_animation-iteration-count.asp) | Số lần lặp lại của hoạt ảnh                                                                          | *number*<br>`infinite`<br>                                                                                                                                  |
-  | [direction](https://www.w3schools.com/cssref/css3_pr_animation-direction.asp)              | Hướng hoạt ảnh di chuyển                                                                             | `normal`<br>`reserve`<br>`alternate`<br>`alternate-reverse`<br>                                                                                             |
-  | [fill-mode](https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.asp)              | Chỉ định kiểu phần tử khi hoạt ảnh không chạy<br>(*trước khi bắt đầu, sau khi kết thúc hoạt cả hai*) | `none`<br>`forwards`<br>`backwards`<br>`both`<br>                                                                                                           |
-  | [play-state](https://www.w3schools.com/cssref/css3_pr_animation-play-state.asp)            | Chỉ địn hoạt ảnh dang chạy *hoặc* tạm dừng                                                           | `pause`<br>`running`<br>                                                                                                                                    |
-
+  
+  <br>
+  
+  | Property (animation)                                                                       | Description                                                                                          | Value                                                                                                                                                      |
+  | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | [name](https://www.w3schools.com/cssref/css3_pr_animation-name.asp)                        | Tên *@keyframe* của hoạt ảnh                                                                         | *keyframename*<br>`none`<br>                                                                                                                               |
+  | [duration](https://www.w3schools.com/cssref/css3_pr_animation-duration.asp)                | Thời gian hoàn thành một chu kỳ                                                                      | *time*                                                                                                                                                     |
+  | [timing-function](https://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp)  | Tốc độ đường cong của hoạt ảnh                                                                       | `linear`<br>`ease` \| `ease-in` \|`ease-out` \| `ease-in-out`<br>`step-start` \| `step-end` \| `steps`(*int*, *start*\|*end*)<br>`cubic-bezier`(*n,n,n,n*) |
+  | [delay](https://www.w3schools.com/cssref/css3_pr_animation-delay.asp)                      | Độ trễ khi bắt đầu hoạt ảnh                                                                          | *time*<br>                                                                                                                                                 |
+  | [interation-count](https://www.w3schools.com/cssref/css3_pr_animation-iteration-count.asp) | Số lần lặp lại của hoạt ảnh                                                                          | *number*<br>`infinite`<br>                                                                                                                                 |
+  | [direction](https://www.w3schools.com/cssref/css3_pr_animation-direction.asp)              | Hướng hoạt ảnh di chuyển                                                                             | `normal`<br>`reserve`<br>`alternate`<br>`alternate-reverse`<br>                                                                                            |
+  | [fill-mode](https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.asp)              | Chỉ định kiểu phần tử khi hoạt ảnh không chạy<br>(*trước khi bắt đầu, sau khi kết thúc hoạt cả hai*) | `none`<br>`forwards`<br>`backwards`<br>`both`<br>                                                                                                          |
+  | [play-state](https://www.w3schools.com/cssref/css3_pr_animation-play-state.asp)            | Chỉ địn hoạt ảnh dang chạy *hoặc* tạm dừng                                                           | `pause`<br>`running`<br>                                                                                                                                   |
+  
   </details>
+
 ---
 
 ## B
@@ -115,8 +116,6 @@ Value chung là `initial` và `inherit`
   | [width](https://www.w3schools.com/cssref/css3_pr_border-image-width.asp)   |     |     |
   | [outset](https://www.w3schools.com/cssref/css3_pr_border-image-outset.asp) |     |     |
   | [repeat](https://www.w3schools.com/cssref/css3_pr_border-image-repeat.asp) |     |     |
-
-
 
 ---
 
