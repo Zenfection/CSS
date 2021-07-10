@@ -77,11 +77,20 @@ Value chung là `initial` và `inherit`
 
 - [border-\*](https://www.w3schools.com/cssref/pr_border.asp) : `width` `style` `color` 
   
+  <details>
+    <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
   | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
   | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
   | [border-width](https://www.w3schools.com/cssref/pr_border-width.asp)                                                                        |                                                                                                                                      |                                                                                                                        |
   | [border-style](https://www.w3schools.com/cssref/pr_border-style.asp)                                                                        |                                                                                                                                      |                                                                                                                        |
   | [border-color](https://www.w3schools.com/cssref/pr_border-color.asp)                                                                        |                                                                                                                                      |                                                                                                                        |
+
+  <br>
+
+  </details>
 
 - [border-top-\*](https://www.w3schools.com/cssref/pr_border-top.asp) : `witdh` `style` `color`
   
@@ -93,30 +102,62 @@ Value chung là `initial` và `inherit`
 
 - [border-right-\*](https://www.w3schools.com/cssref/pr_border-right.asp) : `witdh` `style` `color`
   
+  <details>
+    <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
   | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Propety | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
   | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
   | [border-right-width](https://www.w3schools.com/cssref/pr_border-right_width.asp)                                                           |                                                                                                                                      |                                                                                                                        |
   | [border-right-style](https://www.w3schools.com/cssref/pr_border-right_style.asp)                                                           |                                                                                                                                      |                                                                                                                        |
   | [border-right-color](https://www.w3schools.com/cssref/pr_border-right_color.asp)                                                           |                                                                                                                                      |                                                                                                                        |
 
+  <br>
+
+  </details>
+
 - [border-bottom-\*](https://www.w3schools.com/cssref/pr_border-bottom.asp) : `witdh` `style` `color`
   
+  <details>
+    <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
   | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
   | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
   | [border-bottom-width](https://www.w3schools.com/cssref/pr_border-bottom_width.asp)                                                          |                                                                                                                                      |                                                                                                                        |
   | [border-bottom-style](https://www.w3schools.com/cssref/pr_border-bottom_style.asp)                                                          |                                                                                                                                      |                                                                                                                        |
   | [border-bottom-color](https://www.w3schools.com/cssref/pr_border-bottom_color.asp)                                                          |                                                                                                                                      |                                                                                                                        |
 
+  <br>
+
+  </details>
+
 - [border-left-\*](https://www.w3schools.com/cssref/pr_border-left.asp) : `width` `style` `color`
   
+  <details>
+    <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
   | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
   | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
   | [border-left-width](https://www.w3schools.com/cssref/pr_border-left_width.asp)                                                              |                                                                                                                                      |                                                                                                                        |
   | [border-left-style](https://www.w3schools.com/cssref/pr_border-left_style.asp)                                                              |                                                                                                                                      |                                                                                                                        |
   | [border-left-color](https://www.w3schools.com/cssref/pr_border-left_color.asp)                                                              |                                                                                                                                      |                                                                                                                        |
 
+  <br>
+
+  </details>
+
 - [border-image-\*](https://www.w3schools.com/cssref/css3_pr_border-image.asp) : `source` `slice` `width` `outset` `repeat`
   
+  <details>
+    <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
   | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
   | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
   | [source](https://www.w3schools.com/cssref/css3_pr_border-image-source.asp)                                                                  |                                                                                                                                      |                                                                                                                        |
@@ -125,6 +166,9 @@ Value chung là `initial` và `inherit`
   | [outset](https://www.w3schools.com/cssref/css3_pr_border-image-outset.asp)                                                                  |                                                                                                                                      |                                                                                                                        |
   | [repeat](https://www.w3schools.com/cssref/css3_pr_border-image-repeat.asp)                                                                  |                                                                                                                                      |                                                                                                                        |
 
+  <br>
+
+  </details>
 ---
 
 ## C
