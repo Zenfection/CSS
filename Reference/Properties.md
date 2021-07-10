@@ -94,12 +94,21 @@ Value chung là `initial` và `inherit`
 
 - [border-top-\*](https://www.w3schools.com/cssref/pr_border-top.asp) : `witdh` `style` `color`
   
+  <details>
+    <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
   | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
   | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
   | [border-top-width](https://www.w3schools.com/cssref/pr_border-top_width.asp)                                                                |                                                                                                                                      |                                                                                                                        |
   | [border-top-style](https://www.w3schools.com/cssref/pr_border-top_style.asp)                                                                |                                                                                                                                      |                                                                                                                        |
   | [border-top-color](https://www.w3schools.com/cssref/pr_border-top_color.asp)                                                                |                                                                                                                                      |                                                                                                                        |
 
+  <br>
+
+  </details>
+  
 - [border-right-\*](https://www.w3schools.com/cssref/pr_border-right.asp) : `witdh` `style` `color`
   
   <details>
