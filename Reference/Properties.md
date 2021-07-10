@@ -2,21 +2,13 @@
 
 ## A
 
-| Property                                                                                            | Description |
-| --------------------------------------------------------------------------------------------------- | ----------- |
-| [align-content](https://www.w3schools.com/cssref/css3_pr_align-content.asp)                         |             |
-| [align-items](https://www.w3schools.com/cssref/css3_pr_align-items.asp)                             |             |
-| [align-self](https://www.w3schools.com/cssref/css3_pr_align-self.asp)                               |             |
-| [all](https://www.w3schools.com/cssref/css3_pr_all.asp)                                             |             |
-| [aniamtion](https://www.w3schools.com/cssref/css3_pr_animation.asp)                                 |             |
-| [animation-delay](https://www.w3schools.com/cssref/css3_pr_animation-delay.asp)                     |             |
-| [animation-direction](https://www.w3schools.com/cssref/css3_pr_animation-direction.asp)             |             |
-| [animation-duration](https://www.w3schools.com/cssref/css3_pr_animation-duration.asp)               |             |
-| [animation-fill-mode](https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.asp)             |             |
-| [animation-iteration-count](https://www.w3schools.com/cssref/css3_pr_animation-iteration-count.asp) |             |
-| [animation-name](https://www.w3schools.com/cssref/css3_pr_animation-name.asp)                       |             |
-| [animation-play-state](https://www.w3schools.com/cssref/css3_pr_animation-play-state.asp)           |             |
-| [animation-timing-function](https://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp) |             |
+| Property                                                                                                                                         | Description                                                                                                                                                                                           | Value                                                                                                                                     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [align-content](https://www.w3schools.com/cssref/css3_pr_align-content.asp)                                                                      | Căn giữa các dòng bên trong `box`, khi các `item` không sử dụng hết không gian<br><br>==> Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-content) | `stretch` <br>`center` <br>`flex-start`<br>`flex-end`<br>`space-between`<br>`space-around`<br>`space-evenly`<br>`initial<br>inherit`      |
+| [align-items](https://www.w3schools.com/cssref/css3_pr_align-items.asp)<br>[align-self](https://www.w3schools.com/cssref/css3_pr_align-self.asp) | Căn giữ các `item` bên trong `flexible container`<br>Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-items)                                        | `stretch`<br>`center`<br>`flex-start`<br>`flex-end`<br>`baseline`<br>`initial`<br>`inherit`                                               |
+| [all](https://www.w3schools.com/cssref/css3_pr_all.asp)                                                                                          | Đặt lại tất cả thuộc tính (*trừ `unicode-bidi` và `direction`*)                                                                                                                                       | `initial` : về thuộc tính giá trị ban đầu<br>`inherit` : về thuộc tính của phần tử cha<br>`unset` : auto `inherit` không có thì `initial` |
+
+
 
 ---
 
