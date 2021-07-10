@@ -2,13 +2,22 @@
 
 ## A
 
-| Property                                                                                                                                         | Description                                                                                                                                                                                           | Value                                                                                                                                     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| [align-content](https://www.w3schools.com/cssref/css3_pr_align-content.asp)                                                                      | Căn giữa các dòng bên trong `box`, khi các `item` không sử dụng hết không gian<br><br>==> Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-content) | `stretch` <br>`center` <br>`flex-start`<br>`flex-end`<br>`space-between`<br>`space-around`<br>`space-evenly`<br>`initial<br>inherit`      |
-| [align-items](https://www.w3schools.com/cssref/css3_pr_align-items.asp)<br>[align-self](https://www.w3schools.com/cssref/css3_pr_align-self.asp) | Căn giữ các `item` bên trong `flexible container`<br>Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-items)                                        | `stretch`<br>`center`<br>`flex-start`<br>`flex-end`<br>`baseline`<br>`initial`<br>`inherit`                                               |
-| [all](https://www.w3schools.com/cssref/css3_pr_all.asp)                                                                                          | Đặt lại tất cả thuộc tính (*trừ `unicode-bidi` và `direction`*)                                                                                                                                       | `initial` : về thuộc tính giá trị ban đầu<br>`inherit` : về thuộc tính của phần tử cha<br>`unset` : auto `inherit` không có thì `initial` |
+| Property                                                                    | Description                                                                                                                                                                                           | Value                                                                                                                                     |
+| --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [align-content](https://www.w3schools.com/cssref/css3_pr_align-content.asp) | Căn giữa các dòng bên trong `box`, khi các `item` không sử dụng hết không gian<br><br>==> Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-content) | `stretch` \| `center` \| `flex-start` \| `flex-end` \|`space-between` \|`space-around` \| `space-evenly` \| `initial`\| `inherit`         |
+| [align-items](https://www.w3schools.com/cssref/css3_pr_align-items.asp)     | Căn giữa các `item` bên trong `flexible container`<br>Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-items)                                       | `stretch`<br>`center`<br>`flex-start`<br>`flex-end`<br>`baseline`<br>`initial`<br>`inherit`                                               |
+| [align-self](https://www.w3schools.com/cssref/css3_pr_align-self.asp)       | Căn giữa các `item` đã chọn bên trong `flexible container`<br>Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-self)                                | `auto`<br>`stretch`<br>`center`<br>`flex-start`<br>`flex-end`<br>`baseline`<br>`initial`<br>`inherit`                                     |
+| [all](https://www.w3schools.com/cssref/css3_pr_all.asp)                     | Đặt lại tất cả thuộc tính (*trừ `unicode-bidi` và `direction`*)                                                                                                                                       | `initial` : về thuộc tính giá trị ban đầu<br>`inherit` : về thuộc tính của phần tử cha<br>`unset` : auto `inherit` không có thì `initial` |
 
+[aniamtion](https://www.w3schools.com/cssref/css3_pr_animation.asp) : `name` `duration` `timing-function` `delay` `interation-count` `direction` `fill mode` `play-state`
 
+| Property       | Description | Value |
+| -------------- | ----------- | ----- |
+| animation-name |             |       |
+| animation-     |             |       |
+|                |             |       |
+|                |             |       |
+|                |             |       |
 
 ---
 
