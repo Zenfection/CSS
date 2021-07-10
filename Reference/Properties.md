@@ -1,4 +1,4 @@
-# [Properties]([CSS Reference](https://www.w3schools.com/cssref/default.asp))
+# Properties
 
 Value chung là `initial` và `inherit`
 
