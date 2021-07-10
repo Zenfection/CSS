@@ -9,18 +9,22 @@
 | [align-self](https://www.w3schools.com/cssref/css3_pr_align-self.asp)       | Căn giữa các `item` đã chọn bên trong `flexible container`<br>Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-self)                                | `auto`<br>`stretch`<br>`center`<br>`flex-start`<br>`flex-end`<br>`baseline`<br>`initial`<br>`inherit`                                     |
 | [all](https://www.w3schools.com/cssref/css3_pr_all.asp)                     | Đặt lại tất cả thuộc tính (*trừ `unicode-bidi` và `direction`*)                                                                                                                                       | `initial` : về thuộc tính giá trị ban đầu<br>`inherit` : về thuộc tính của phần tử cha<br>`unset` : auto `inherit` không có thì `initial` |
 
-[aniamtion](https://www.w3schools.com/cssref/css3_pr_animation.asp) : `name` `duration` `timing-function` `delay` `interation-count` `direction` `fill mode` `play-state`
+- [aniamtion](https://www.w3schools.com/cssref/css3_pr_animation.asp) : `name` `duration` `timing-function` `delay` `interation-count` `direction` `fill mode` `play-state`
 
-| Property                                                                                             | Description | Value                                                                                                                                                                                 |
-| ---------------------------------------------------------------------------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [animation-name](https://www.w3schools.com/cssref/css3_pr_animation-name.asp)                        |             | *keyframename*<br>`none`<br>`initial`<br>`inherit`                                                                                                                                    |
-| [animation-duration](https://www.w3schools.com/cssref/css3_pr_animation-duration.asp)                |             | *time*<br>`initial`<br>`inherit`                                                                                                                                                      |
-| [animation-timing-function](https://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp)  |             | `linear`<br>`ease`<br>`ease-in`<br>`ease-out`<br>`ease-in-out`<br>`step-start`<br>`step-end`<br>`steps`(*int*, *start*\|*end*)<br>`cubic-bezier`(*n,n,n,n*)<br>`initial`<br>`inherit` |
-| [animation-delay](https://www.w3schools.com/cssref/css3_pr_animation-delay.asp)                      |             | *time*<br>`initial`<br>`inherit`                                                                                                                                                      |
-| [animation-interation-count](https://www.w3schools.com/cssref/css3_pr_animation-iteration-count.asp) |             | *number*<br>`infinite`<br>`initial`<br>`inherit`                                                                                                                                      |
-| [animation-direction](https://www.w3schools.com/cssref/css3_pr_animation-direction.asp)              |             | `normal`<br>`reserve`<br>`alternate`<br>`alternate-reverse`<br>`initial`<br>`inherit`                                                                                                 |
-| [animation-fill-mode](https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.asp)              |             | `none`<br>`forwards`<br>`backwards`<br>`both`<br>`initial`<br>`inherit`                                                                                                               |
-| [animation-play-state](https://www.w3schools.com/cssref/css3_pr_animation-play-state.asp)            |             | `pause`<br>`running`<br>`initial`<br>`inherit`                                                                                                                                        |
+> Viết tắt của các thuộc tính `animation`
+> 
+> Value chung : `inital` và `initherit`
+
+| Property                                                                                             | Description                                                                                          | Value                                                                                                                                                       |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [animation-name](https://www.w3schools.com/cssref/css3_pr_animation-name.asp)                        | Tên *@keyframe* của hoạt ảnh                                                                         | *keyframename*<br>`none`<br>                                                                                                                                |
+| [animation-duration](https://www.w3schools.com/cssref/css3_pr_animation-duration.asp)                | Thời gian hoàn thành một chu kỳ                                                                      | *time*                                                                                                                                                      |
+| [animation-timing-function](https://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp)  | Tốc độ đường cong của hoạt ảnh                                                                       | `linear`<br>`ease`<br>`ease-in`<br>`ease-out`<br>`ease-in-out`<br>`step-start`<br>`step-end`<br>`steps`(*int*, *start*\|*end*)<br>`cubic-bezier`(*n,n,n,n*) |
+| [animation-delay](https://www.w3schools.com/cssref/css3_pr_animation-delay.asp)                      | Độ trễ khi bắt đầu hoạt ảnh                                                                          | *time*<br>                                                                                                                                                  |
+| [animation-interation-count](https://www.w3schools.com/cssref/css3_pr_animation-iteration-count.asp) | Số lần lặp lại của hoạt ảnh                                                                          | *number*<br>`infinite`<br>                                                                                                                                  |
+| [animation-direction](https://www.w3schools.com/cssref/css3_pr_animation-direction.asp)              | Hướng hoạt ảnh di chuyển                                                                             | `normal`<br>`reserve`<br>`alternate`<br>`alternate-reverse`<br>                                                                                             |
+| [animation-fill-mode](https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.asp)              | Chỉ định kiểu phần tử khi hoạt ảnh không chạy<br>(*trước khi bắt đầu, sau khi kết thúc hoạt cả hai*) | `none`<br>`forwards`<br>`backwards`<br>`both`<br>                                                                                                           |
+| [animation-play-state](https://www.w3schools.com/cssref/css3_pr_animation-play-state.asp)            | Chỉ địn hoạt ảnh dang chạy *hoặc* tạm dừng                                                           | `pause`<br>`running`<br>                                                                                                                                    |
 
 ---
 
@@ -79,6 +83,10 @@
 | [break-after](https://www.w3schools.com/cssref/pr_break-after.asp)                                    |             |
 | [break-before](https://www.w3schools.com/cssref/pr_break-before.asp)                                  |             |
 | [break-inside](https://www.w3schools.com/cssref/pr_break-inside.asp)                                  |             |
+
+background
+
+border
 
 ---
 
