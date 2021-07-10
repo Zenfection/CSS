@@ -1,92 +1,122 @@
 # [Properties]([CSS Reference](https://www.w3schools.com/cssref/default.asp))
 
+Value chung là `initial` và `inherit`
+
 ## A
 
-| Property                                                                    | Description                                                                                                                                                                                           | Value                                                                                                                                     |
-| --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| [align-content](https://www.w3schools.com/cssref/css3_pr_align-content.asp) | Căn giữa các dòng bên trong `box`, khi các `item` không sử dụng hết không gian<br><br>==> Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-content) | `stretch` <br>`center` <br>`flex-start`<br>`flex-end`<br>`space-between`<br>`space-around`<br>`space-evenly`<br>`initial<br>inherit`      |
-| [align-items](https://www.w3schools.com/cssref/css3_pr_align-items.asp)     | Căn giữa các `item` bên trong `flexible container`<br>Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-items)                                       | `stretch`<br>`center`<br>`flex-start`<br>`flex-end`<br>`baseline`<br>`initial`<br>`inherit`                                               |
-| [align-self](https://www.w3schools.com/cssref/css3_pr_align-self.asp)       | Căn giữa các `item` đã chọn bên trong `flexible container`<br>Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-self)                                | `auto`<br>`stretch`<br>`center`<br>`flex-start`<br>`flex-end`<br>`baseline`<br>`initial`<br>`inherit`                                     |
-| [all](https://www.w3schools.com/cssref/css3_pr_all.asp)                     | Đặt lại tất cả thuộc tính (*trừ `unicode-bidi` và `direction`*)                                                                                                                                       | `initial` : về thuộc tính giá trị ban đầu<br>`inherit` : về thuộc tính của phần tử cha<br>`unset` : auto `inherit` không có thì `initial` |
+| Property                                                                    | Description                                                                                                                                                                                           | Value                                                                                                        |
+| --------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| [align-content](https://www.w3schools.com/cssref/css3_pr_align-content.asp) | Căn giữa các dòng bên trong `box`, khi các `item` không sử dụng hết không gian<br><br>==> Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-content) | `stretch` <br>`center` <br>`flex-start`<br>`flex-end`<br>`space-between`<br>`space-around`<br>`space-evenly` |
+| [align-items](https://www.w3schools.com/cssref/css3_pr_align-items.asp)     | Căn giữa các `item` bên trong `flexible container`<br>Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-items)                                       | `stretch`<br>`center`<br>`flex-start`<br>`flex-end`<br>`baseline`<br>                                        |
+| [align-self](https://www.w3schools.com/cssref/css3_pr_align-self.asp)       | Căn giữa các `item` đã chọn bên trong `flexible container`<br>Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-self)                                | `auto`<br>`stretch`<br>`center`<br>`flex-start`<br>`flex-end`<br>`baseline`<br>                              |
+| [all](https://www.w3schools.com/cssref/css3_pr_all.asp)                     | Đặt lại tất cả thuộc tính (*trừ `unicode-bidi` và `direction`*)                                                                                                                                       | `unset`                                                                                                      |
 
-- [aniamtion](https://www.w3schools.com/cssref/css3_pr_animation.asp) : `name` `duration` `timing-function` `delay` `interation-count` `direction` `fill mode` `play-state`
+- [aniamtion-\*](https://www.w3schools.com/cssref/css3_pr_animation.asp) : `name` `duration` `timing-function` `delay` `interation-count` `direction` `fill mode` `play-state`
+  
+  <details>
+    <summary>Cụ thể các thuộc tính</summary>
 
-> Viết tắt của các thuộc tính `animation`
-> 
-> Value chung : `inital` và `initherit`
+    <br>
 
-| Property (animation)                                                                       | Description                                                                                          | Value                                                                                                                                                       |
-| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [name](https://www.w3schools.com/cssref/css3_pr_animation-name.asp)                        | Tên *@keyframe* của hoạt ảnh                                                                         | *keyframename*<br>`none`<br>                                                                                                                                |
-| [duration](https://www.w3schools.com/cssref/css3_pr_animation-duration.asp)                | Thời gian hoàn thành một chu kỳ                                                                      | *time*                                                                                                                                                      |
-| [timing-function](https://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp)  | Tốc độ đường cong của hoạt ảnh                                                                       | `linear`<br>`ease`<br>`ease-in`<br>`ease-out`<br>`ease-in-out`<br>`step-start`<br>`step-end`<br>`steps`(*int*, *start*\|*end*)<br>`cubic-bezier`(*n,n,n,n*) |
-| [delay](https://www.w3schools.com/cssref/css3_pr_animation-delay.asp)                      | Độ trễ khi bắt đầu hoạt ảnh                                                                          | *time*<br>                                                                                                                                                  |
-| [interation-count](https://www.w3schools.com/cssref/css3_pr_animation-iteration-count.asp) | Số lần lặp lại của hoạt ảnh                                                                          | *number*<br>`infinite`<br>                                                                                                                                  |
-| [direction](https://www.w3schools.com/cssref/css3_pr_animation-direction.asp)              | Hướng hoạt ảnh di chuyển                                                                             | `normal`<br>`reserve`<br>`alternate`<br>`alternate-reverse`<br>                                                                                             |
-| [fill-mode](https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.asp)              | Chỉ định kiểu phần tử khi hoạt ảnh không chạy<br>(*trước khi bắt đầu, sau khi kết thúc hoạt cả hai*) | `none`<br>`forwards`<br>`backwards`<br>`both`<br>                                                                                                           |
-| [play-state](https://www.w3schools.com/cssref/css3_pr_animation-play-state.asp)            | Chỉ địn hoạt ảnh dang chạy *hoặc* tạm dừng                                                           | `pause`<br>`running`<br>                                                                                                                                    |
+  | Property (animation)                                                                       | Description                                                                                          | Value                                                                                                                                                       |
+  | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | [name](https://www.w3schools.com/cssref/css3_pr_animation-name.asp)                        | Tên *@keyframe* của hoạt ảnh                                                                         | *keyframename*<br>`none`<br>                                                                                                                                |
+  | [duration](https://www.w3schools.com/cssref/css3_pr_animation-duration.asp)                | Thời gian hoàn thành một chu kỳ                                                                      | *time*                                                                                                                                                      |
+  | [timing-function](https://www.w3schools.com/cssref/css3_pr_animation-timing-function.asp)  | Tốc độ đường cong của hoạt ảnh                                                                       | `linear`<br>`ease`<br>`ease-in`<br>`ease-out`<br>`ease-in-out`<br>`step-start`<br>`step-end`<br>`steps`(*int*, *start*\|*end*)<br>`cubic-bezier`(*n,n,n,n*) |
+  | [delay](https://www.w3schools.com/cssref/css3_pr_animation-delay.asp)                      | Độ trễ khi bắt đầu hoạt ảnh                                                                          | *time*<br>                                                                                                                                                  |
+  | [interation-count](https://www.w3schools.com/cssref/css3_pr_animation-iteration-count.asp) | Số lần lặp lại của hoạt ảnh                                                                          | *number*<br>`infinite`<br>                                                                                                                                  |
+  | [direction](https://www.w3schools.com/cssref/css3_pr_animation-direction.asp)              | Hướng hoạt ảnh di chuyển                                                                             | `normal`<br>`reserve`<br>`alternate`<br>`alternate-reverse`<br>                                                                                             |
+  | [fill-mode](https://www.w3schools.com/cssref/css3_pr_animation-fill-mode.asp)              | Chỉ định kiểu phần tử khi hoạt ảnh không chạy<br>(*trước khi bắt đầu, sau khi kết thúc hoạt cả hai*) | `none`<br>`forwards`<br>`backwards`<br>`both`<br>                                                                                                           |
+  | [play-state](https://www.w3schools.com/cssref/css3_pr_animation-play-state.asp)            | Chỉ địn hoạt ảnh dang chạy *hoặc* tạm dừng                                                           | `pause`<br>`running`<br>                                                                                                                                    |
 
+  </details>
 ---
 
 ## B
 
-| Property                                                                                              | Description |
-| ----------------------------------------------------------------------------------------------------- | ----------- |
-| [backface-visibility](https://www.w3schools.com/cssref/css3_pr_backface-visibility.asp)               |             |
-| [background](https://www.w3schools.com/cssref/css3_pr_background.asp)                                 |             |
-| [background-attachment](https://www.w3schools.com/cssref/pr_background-attachment.asp)                |             |
-| [background-blend-mode](https://www.w3schools.com/cssref/pr_background-blend-mode.asp)                |             |
-| [background-clip](https://www.w3schools.com/cssref/css3_pr_background-clip.asp)                       |             |
-| [background-color](https://www.w3schools.com/cssref/pr_background-color.asp)                          |             |
-| [background-image](https://www.w3schools.com/cssref/pr_background-image.asp)                          |             |
-| [background-origin](https://www.w3schools.com/cssref/css3_pr_background-origin.asp)                   |             |
-| [background-position](https://www.w3schools.com/cssref/pr_background-position.asp)                    |             |
-| [background-repeat](https://www.w3schools.com/cssref/pr_background-repeat.asp)                        |             |
-| [background-size](https://www.w3schools.com/cssref/css3_pr_background-size.asp)                       |             |
-| [border](https://www.w3schools.com/cssref/pr_border.asp)                                              |             |
-| [border-bottom](https://www.w3schools.com/cssref/pr_border-bottom.asp)                                |             |
-| [border-bottom-color](https://www.w3schools.com/cssref/pr_border-bottom_color.asp)                    |             |
-| [border-bottom-left-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp)   |             |
-| [border-bottom-right-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp) |             |
-| [border-bottom-style](https://www.w3schools.com/cssref/pr_border-bottom_style.asp)                    |             |
-| [border-bottom-width](https://www.w3schools.com/cssref/pr_border-bottom_width.asp)                    |             |
-| [border-collapse](https://www.w3schools.com/cssref/pr_border-collapse.asp)                            |             |
-| [border-color](https://www.w3schools.com/cssref/pr_border-color.asp)                                  |             |
-| [border-image](https://www.w3schools.com/cssref/css3_pr_border-image.asp)                             |             |
-| [border-image-outset](https://www.w3schools.com/cssref/css3_pr_border-image-outset.asp)               |             |
-| [border-image-repeat](https://www.w3schools.com/cssref/css3_pr_border-image-repeat.asp)               |             |
-| [border-image-slice](https://www.w3schools.com/cssref/css3_pr_border-image-slice.asp)                 |             |
-| [border-image-source](https://www.w3schools.com/cssref/css3_pr_border-image-source.asp)               |             |
-| [border-image-width](https://www.w3schools.com/cssref/css3_pr_border-image-width.asp)                 |             |
-| [border-left](https://www.w3schools.com/cssref/pr_border-left.asp)                                    |             |
-| [border-left-color](https://www.w3schools.com/cssref/pr_border-left_color.asp)                        |             |
-| [border-left-style](https://www.w3schools.com/cssref/pr_border-left_style.asp)                        |             |
-| [border-left-width](https://www.w3schools.com/cssref/pr_border-left_width.asp)                        |             |
-| [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp)                           |             |
-| [border-right](https://www.w3schools.com/cssref/pr_border-right.asp)                                  |             |
-| [border-right-color](https://www.w3schools.com/cssref/pr_border-right_color.asp)                      |             |
-| [border-right-style](https://www.w3schools.com/cssref/pr_border-right_style.asp)                      |             |
-| [border-right-width](https://www.w3schools.com/cssref/pr_border-right_width.asp)                      |             |
-| [border-spacing](https://www.w3schools.com/cssref/pr_border-spacing.asp)                              |             |
-| [border-style](https://www.w3schools.com/cssref/pr_border-style.asp)                                  |             |
-| [border-top](https://www.w3schools.com/cssref/pr_border-top.asp)                                      |             |
-| [border-top-color](https://www.w3schools.com/cssref/pr_border-top_color.asp)                          |             |
-| [border-top-left-radius](https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp)         |             |
-| [border-top-right-radius](https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.asp)       |             |
-| [border-top-style](https://www.w3schools.com/cssref/pr_border-top_style.asp)                          |             |
-| [border-top-width](https://www.w3schools.com/cssref/pr_border-top_width.asp)                          |             |
-| [border-width](https://www.w3schools.com/cssref/pr_border-width.asp)                                  |             |
-| [bottom](https://www.w3schools.com/cssref/pr_pos_bottom.asp)                                          |             |
-| [box-decoration-break](https://www.w3schools.com/cssref/css3_pr_box-decoration-break.asp)             |             |
-| [box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)                                 |             |
-| [box-sizing](https://www.w3schools.com/cssref/css3_pr_box-sizing.asp)                                 |             |
-| [break-after](https://www.w3schools.com/cssref/pr_break-after.asp)                                    |             |
-| [break-before](https://www.w3schools.com/cssref/pr_break-before.asp)                                  |             |
-| [break-inside](https://www.w3schools.com/cssref/pr_break-inside.asp)                                  |             |
+| Property                                                                                              | Description                                  | Value                                                                                                                                |
+| ----------------------------------------------------------------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| [backface-visibility](https://www.w3schools.com/cssref/css3_pr_backface-visibility.asp)               |                                              | `visible`<br>`hidden`<br>                                                                                                            |
+| [background-blend-mode](https://www.w3schools.com/cssref/pr_background-blend-mode.asp)                | Chỉnh chế độ hòa trộn của các lớp màu và ảnh | `normal`<br>`multiply`<br>`screen`<br>`overlay`<br>`darken`<br>`lighten`<br>`color-dodge`<br>`saturation`<br>`color`<br>`luminosity` |
+| [border-bottom-left-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp)   |                                              |                                                                                                                                      |
+| [border-bottom-right-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp) |                                              |                                                                                                                                      |
+| [border-collapse](https://www.w3schools.com/cssref/pr_border-collapse.asp)                            |                                              |                                                                                                                                      |
+| [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp)                           |                                              |                                                                                                                                      |
+| [border-spacing](https://www.w3schools.com/cssref/pr_border-spacing.asp)                              |                                              |                                                                                                                                      |
+| [border-top-left-radius](https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp)         |                                              |                                                                                                                                      |
+| [border-top-right-radius](https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.asp)       |                                              |                                                                                                                                      |
+| [bottom](https://www.w3schools.com/cssref/pr_pos_bottom.asp)                                          |                                              |                                                                                                                                      |
+| [box-decoration-break](https://www.w3schools.com/cssref/css3_pr_box-decoration-break.asp)             |                                              |                                                                                                                                      |
+| [box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)                                 |                                              |                                                                                                                                      |
+| [box-sizing](https://www.w3schools.com/cssref/css3_pr_box-sizing.asp)                                 |                                              |                                                                                                                                      |
+| [break-after](https://www.w3schools.com/cssref/pr_break-after.asp)                                    |                                              |                                                                                                                                      |
+| [break-before](https://www.w3schools.com/cssref/pr_break-before.asp)                                  |                                              |                                                                                                                                      |
+| [break-inside](https://www.w3schools.com/cssref/pr_break-inside.asp)                                  |                                              |                                                                                                                                      |
 
-background
+- [background-\*]([background](https://www.w3schools.com/cssref/css3_pr_background.asp) : `color` `image` `position` `size` `repeat` `origin` `clip` `attachment`
+  
+  | Property (background)                                                       | Description | Value |
+  | --------------------------------------------------------------------------- | ----------- | ----- |
+  | [color](https://www.w3schools.com/cssref/pr_background-color.asp)           |             |       |
+  | [image](https://www.w3schools.com/cssref/pr_background-image.asp)           |             |       |
+  | [position](https://www.w3schools.com/cssref/pr_background-position.asp)     |             |       |
+  | [size](https://www.w3schools.com/cssref/css3_pr_background-size.asp)        |             |       |
+  | [repeat](https://www.w3schools.com/cssref/pr_background-repeat.asp)         |             |       |
+  | [origin](https://www.w3schools.com/cssref/css3_pr_background-origin.asp)    |             |       |
+  | [clip](https://www.w3schools.com/cssref/css3_pr_background-clip.asp)        |             |       |
+  | [attachment](https://www.w3schools.com/cssref/pr_background-attachment.asp) |             |       |
 
-border
+- [border-\*](https://www.w3schools.com/cssref/pr_border.asp) : `width` `style` `color` 
+  
+  | Property                                                             |     |     |
+  | -------------------------------------------------------------------- | --- | --- |
+  | [border-width](https://www.w3schools.com/cssref/pr_border-width.asp) |     |     |
+  | [border-style](https://www.w3schools.com/cssref/pr_border-style.asp) |     |     |
+  | [border-color](https://www.w3schools.com/cssref/pr_border-color.asp) |     |     |
+
+- [border-top-\*](https://www.w3schools.com/cssref/pr_border-top.asp) : `witdh` `style` `color`
+  
+  | Property                                                                     |     |     |
+  | ---------------------------------------------------------------------------- | --- | --- |
+  | [border-top-width](https://www.w3schools.com/cssref/pr_border-top_width.asp) |     |     |
+  | [border-top-style](https://www.w3schools.com/cssref/pr_border-top_style.asp) |     |     |
+  | [border-top-color](https://www.w3schools.com/cssref/pr_border-top_color.asp) |     |     |
+
+- [border-right-\*](https://www.w3schools.com/cssref/pr_border-right.asp) : `witdh` `style` `color`
+  
+  | Propety                                                                          |     |     |
+  | -------------------------------------------------------------------------------- | --- | --- |
+  | [border-right-width](https://www.w3schools.com/cssref/pr_border-right_width.asp) |     |     |
+  | [border-right-style](https://www.w3schools.com/cssref/pr_border-right_style.asp) |     |     |
+  | [border-right-color](https://www.w3schools.com/cssref/pr_border-right_color.asp) |     |     |
+
+- [border-bottom-\*](https://www.w3schools.com/cssref/pr_border-bottom.asp) : `witdh` `style` `color`
+  
+  | Property                                                                           |     |     |
+  | ---------------------------------------------------------------------------------- | --- | --- |
+  | [border-bottom-width](https://www.w3schools.com/cssref/pr_border-bottom_width.asp) |     |     |
+  | [border-bottom-style](https://www.w3schools.com/cssref/pr_border-bottom_style.asp) |     |     |
+  | [border-bottom-color](https://www.w3schools.com/cssref/pr_border-bottom_color.asp) |     |     |
+
+- [border-left-\*](https://www.w3schools.com/cssref/pr_border-left.asp) : `width` `style` `color`
+  
+  | Property                                                                       |     |     |
+  | ------------------------------------------------------------------------------ | --- | --- |
+  | [border-left-width](https://www.w3schools.com/cssref/pr_border-left_width.asp) |     |     |
+  | [border-left-style](https://www.w3schools.com/cssref/pr_border-left_style.asp) |     |     |
+  | [border-left-color](https://www.w3schools.com/cssref/pr_border-left_color.asp) |     |     |
+
+- [border-image-\*](https://www.w3schools.com/cssref/css3_pr_border-image.asp) : `source` `slice` `width` `outset` `repeat`
+  
+  |                                                                            |     |     |
+  | -------------------------------------------------------------------------- | --- | --- |
+  | [source](https://www.w3schools.com/cssref/css3_pr_border-image-source.asp) |     |     |
+  | [slice](https://www.w3schools.com/cssref/css3_pr_border-image-slice.asp)   |     |     |
+  | [width](https://www.w3schools.com/cssref/css3_pr_border-image-width.asp)   |     |     |
+  | [outset](https://www.w3schools.com/cssref/css3_pr_border-image-outset.asp) |     |     |
+  | [repeat](https://www.w3schools.com/cssref/css3_pr_border-image-repeat.asp) |     |     |
+
+
 
 ---
 
