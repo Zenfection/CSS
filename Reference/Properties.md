@@ -39,13 +39,8 @@ Value chung là `initial` và `inherit`
 | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
 | [backface-visibility](https://www.w3schools.com/cssref/css3_pr_backface-visibility.asp)                                                     | Đặt chế độ xem mặt sau của phần tử hay không                                                                                         | `visible`<br>`hidden`<br>                                                                                                            |
 | [background-blend-mode](https://www.w3schools.com/cssref/pr_background-blend-mode.asp)                                                      | Chỉnh chế độ hòa trộn của các lớp màu và ảnh                                                                                         | `normal`<br>`multiply`<br>`screen`<br>`overlay`<br>`darken`<br>`lighten`<br>`color-dodge`<br>`saturation`<br>`color`<br>`luminosity` |
-| [border-bottom-left-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp)                                         |                                                                                                                                      |                                                                                                                                      |
-| [border-bottom-right-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp)                                       |                                                                                                                                      |                                                                                                                                      |
 | [border-collapse](https://www.w3schools.com/cssref/pr_border-collapse.asp)                                                                  |                                                                                                                                      |                                                                                                                                      |
-| [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp)                                                                 |                                                                                                                                      |                                                                                                                                      |
 | [border-spacing](https://www.w3schools.com/cssref/pr_border-spacing.asp)                                                                    |                                                                                                                                      |                                                                                                                                      |
-| [border-top-left-radius](https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp)                                               |                                                                                                                                      |                                                                                                                                      |
-| [border-top-right-radius](https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.asp)                                             |                                                                                                                                      |                                                                                                                                      |
 | [bottom](https://www.w3schools.com/cssref/pr_pos_bottom.asp)                                                                                |                                                                                                                                      |                                                                                                                                      |
 | [box-decoration-break](https://www.w3schools.com/cssref/css3_pr_box-decoration-break.asp)                                                   |                                                                                                                                      |                                                                                                                                      |
 | [box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp)                                                                       |                                                                                                                                      |                                                                                                                                      |
@@ -117,6 +112,23 @@ Value chung là `initial` và `inherit`
   <br>
   
   </details>
+
+- [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) : bo tròn góc
+  
+  ⚠️ Các đối số sẽ định dạng khác nhau : 
+  
+  | Đối số              | chức năng (bo tròn)                                                                                  |
+  | ------------------- | ---------------------------------------------------------------------------------------------------- |
+  | 10px                | 4 góc `10px`                                                                                         |
+  | 10px 20px           | `top-left` và `bottom-right` là `10px`<br>`top-right` và `bottom-left` là `20px`                     |
+  | 10px 20px 30px      | `top-left` là `10px`<br>`top-right` và `bottom-left` là `20px`<br>`bottom-right` là `30px`           |
+  | 10px 20px 30px 40px | `top-left` là `10px`<br>`top-right` là `20px`<br>`bottom-right` là `30px`<br>`bottom-left` là `40px` |
+  
+  **Value** : *length* | *%* 
+  
+  > ==> Tương tự cũng có thể định dạng cụ thể `4` góc cạnh như sau : 
+  > 
+  > [border-top-left-radius](https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp), [border-top-right-radius](https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.asp), [border-bottom-right-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp), [border-bottom-left-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp)
 
 ---
 
