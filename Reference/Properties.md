@@ -113,6 +113,8 @@ Value chung là `initial` và `inherit`
   
   </details>
 
+<br>
+
 - [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) : bo tròn góc
   
   ⚠️ Các đối số sẽ định dạng khác nhau : 
