@@ -44,6 +44,8 @@ Value chung là `initial` và `inherit`
   
   </details>
 
+  <br>
+  
 - [background-\*](https://www.w3schools.com/cssref/css3_pr_background.asp) : `color` `image` `position` `size` `repeat` `origin` `clip` `attachment`
   
   <details>
@@ -135,7 +137,7 @@ Value chung là `initial` và `inherit`
   <br>
 
   </details>
-  
+
 - [columns](https://www.w3schools.com/cssref/css3_pr_columns.asp) : `width` `count`
   
   <details>
