@@ -49,7 +49,7 @@ Value chung là `initial` và `inherit`
   
   <hr>
 
-- [background-\*](https://www.w3schools.com/cssref/css3_pr_background.asp) : `color` `image` `position` `size` `repeat` `origin` `clip` `attachment`
+- ![icons8-opacity.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-01-29-icons8-opacity.png) [background-\*](https://www.w3schools.com/cssref/css3_pr_background.asp) : `color` `image` `position` `size` `repeat` `origin` `clip` `attachment`
   
   <details>
     <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
@@ -71,7 +71,7 @@ Value chung là `initial` và `inherit`
   
   <hr>
 
-- [border-\*](https://www.w3schools.com/cssref/pr_border.asp) : `width` `style` `color` 
+- ![icons8-border_vertical.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-01-41-icons8-border_vertical.png) [border-\*](https://www.w3schools.com/cssref/pr_border.asp) : `width` `style` `color` 
   
   <details>
     <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
@@ -92,7 +92,7 @@ Value chung là `initial` và `inherit`
   
   <hr>
 
-- [border-image-\*](https://www.w3schools.com/cssref/css3_pr_border-image.asp) : `source` `slice` `width` `outset` `repeat`
+- ![icons8-full_image.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-02-18-icons8-full_image.png) [border-image-\*](https://www.w3schools.com/cssref/css3_pr_border-image.asp) : `source` `slice` `width` `outset` `repeat`
   
   <details>
     <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
@@ -111,7 +111,7 @@ Value chung là `initial` và `inherit`
   
   <hr>
 
-- [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) : bo tròn góc
+- ![icons8-rounded_rectangle_stroked.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-03-08-icons8-rounded_rectangle_stroked.png) [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) : bo tròn góc
   
   <details>
     <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
@@ -137,7 +137,7 @@ Value chung là `initial` và `inherit`
   
   <hr>
 
-- [columns](https://www.w3schools.com/cssref/css3_pr_columns.asp) : `width` `count`
+- ![icons8-select_left_column.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-03-22-icons8-select_left_column.png) [columns](https://www.w3schools.com/cssref/css3_pr_columns.asp) : `width` `count`
   
   <details>
     <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
@@ -153,7 +153,7 @@ Value chung là `initial` và `inherit`
   
   <hr>
 
-- [column-rule-*](https://www.w3schools.com/cssref/css3_pr_column-rule.asp) : `width` `style` `color`
+- ![icons8-edit_column.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-03-32-icons8-edit_column.png) [column-rule-*](https://www.w3schools.com/cssref/css3_pr_column-rule.asp) : `width` `style` `color`
   
   <details>
     <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
