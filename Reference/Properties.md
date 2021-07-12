@@ -129,11 +129,11 @@ Value chung là `initial` và `inherit`
   
   **Value** : *length* | *%* 
   
+  </details>
+
   > ==> Tương tự cũng có thể định dạng cụ thể `4` góc cạnh như sau : 
   > 
   > [border-top-left-radius](https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp), [border-top-right-radius](https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.asp), [border-bottom-right-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp), [border-bottom-left-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp)
-  
-  </details>
   
   <hr>
 
