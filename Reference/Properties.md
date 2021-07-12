@@ -135,9 +135,9 @@ Value chung là `initial` và `inherit`
   > 
   > [border-top-left-radius](https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp), [border-top-right-radius](https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.asp), [border-bottom-right-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp), [border-bottom-left-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp)
 
-</details>
+  </details>
 
-<hr>
+  <hr>
 
 - [columns](https://www.w3schools.com/cssref/css3_pr_columns.asp) : `width` `count`
   
