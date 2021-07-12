@@ -112,6 +112,11 @@ Value chung là `initial` và `inherit`
 
 - [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) : bo tròn góc
   
+  <details>
+    <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
   ⚠️ Các đối số sẽ định dạng khác nhau : 
   
   | Đối số              | chức năng (bo tròn)                                                                                  |
@@ -127,8 +132,10 @@ Value chung là `initial` và `inherit`
   > 
   > [border-top-left-radius](https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp), [border-top-right-radius](https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.asp), [border-bottom-right-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp), [border-bottom-left-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp)
 
+  <br>
 
-
+  </details>
+  
 - [columns](https://www.w3schools.com/cssref/css3_pr_columns.asp) : `width` `count`
   
   <details>
