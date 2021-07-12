@@ -172,8 +172,6 @@ Value chung là `initial` và `inherit`
   
   <hr>
 
----
-
 ## F
 
 | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description |
