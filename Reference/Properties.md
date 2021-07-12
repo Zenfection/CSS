@@ -45,7 +45,7 @@ Value chung là `initial` và `inherit`
   </details>
 
   <br>
-  
+
 - [background-\*](https://www.w3schools.com/cssref/css3_pr_background.asp) : `color` `image` `position` `size` `repeat` `origin` `clip` `attachment`
   
   <details>
@@ -66,7 +66,7 @@ Value chung là `initial` và `inherit`
   
   </details>
 
-<br>
+  <br>
 
 - [border-\*](https://www.w3schools.com/cssref/pr_border.asp) : `width` `style` `color` 
   
@@ -81,15 +81,13 @@ Value chung là `initial` và `inherit`
   | [border-style](https://www.w3schools.com/cssref/pr_border-style.asp)                                                                        | Định dạng kiểu của bốn đường viền                                                                                                    | `none`<br>`hidden`<br>`dotted`<br>`dashed`<br>`solid`<br>`double`<br>`groove`<br>`ridge`<br>`inset`<br>`outset`        |
   | [border-color](https://www.w3schools.com/cssref/pr_border-color.asp)                                                                        | Màu của bốn đường viền                                                                                                               | *color*<br>`transparent`                                                                                               |
   
-  <br>
-  
   </details>
 
 > ==> Tương tự ta cũng có thể định dạng cụ thể từng đường viễn như:
 > 
 >  [border-top-*](https://www.w3schools.com/cssref/pr_border-top.asp), [border-right-*](https://www.w3schools.com/cssref/pr_border-right.asp) , [border-bottom-*](https://www.w3schools.com/cssref/pr_border-bottom.asp), [border-left-*](https://www.w3schools.com/cssref/pr_border-left.asp): `width` `style` `color`
 
-<br>
+  <br>
 
 - [border-image-\*](https://www.w3schools.com/cssref/css3_pr_border-image.asp) : `source` `slice` `width` `outset` `repeat`
   
@@ -106,11 +104,9 @@ Value chung là `initial` và `inherit`
   | [outset](https://www.w3schools.com/cssref/css3_pr_border-image-outset.asp)                                                                  | số lượng mà khu vực ảnh đường viền mở rộng ra ngoài biên                                                                             | *length*<br>*number*                                                                                                   |
   | [repeat](https://www.w3schools.com/cssref/css3_pr_border-image-repeat.asp)                                                                  | chỉ định ảnh đường viễn lặp lại (*tròn hay, kèo dài*)                                                                                | `stretch`<br>`repeat`<br>`round`<br>`space`                                                                            |
   
-  <br>
-  
   </details>
 
-<br>
+  <br>
 
 - [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) : bo tròn góc
   
@@ -134,9 +130,10 @@ Value chung là `initial` và `inherit`
   > 
   > [border-top-left-radius](https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp), [border-top-right-radius](https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.asp), [border-bottom-right-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp), [border-bottom-left-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp)
 
-  <br>
 
   </details>
+
+  <br>
 
 - [columns](https://www.w3schools.com/cssref/css3_pr_columns.asp) : `width` `count`
   
@@ -150,9 +147,9 @@ Value chung là `initial` và `inherit`
   | [width](https://www.w3schools.com/cssref/css3_pr_column-width.asp)                                                                          | chiều rộng `column`                                                                                                                  | `auto`<br>*length*                                                                                                     |
   | [count](https://www.w3schools.com/cssref/css3_pr_column-count.asp)                                                                          | số `columns` mà một phần tử sẽ chia ra                                                                                               | *number*<br>`auto`                                                                                                     |
   
-  <br>
-  
   </details>
+
+  <br>
 
 - [column-rule-*](https://www.w3schools.com/cssref/css3_pr_column-rule.asp) : `width` `style` `color`
   
@@ -167,10 +164,10 @@ Value chung là `initial` và `inherit`
   | [style](https://www.w3schools.com/cssref/css3_pr_column-rule-style.asp)                                                                     | định dạng kiểu quy tắc giữa các `columns`                                                                                            | `none`<br>`hidden`<br>`dotted`<br>`dashed`<br>`solid`<br>`double`<br>`groove`<br>`ridge`<br>`inset`<br>`outset`        |
   | [color](https://www.w3schools.com/cssref/css3_pr_column-rule-color.asp)                                                                     | màu của quy tắc giữa các `columns`                                                                                                   | *color*                                                                                                                |
   
-  <br>
-  
   </details>
 
+  <br>
+  
 ---
 
 ## D
