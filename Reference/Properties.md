@@ -49,7 +49,7 @@ Value chung là `initial` và `inherit`
   
   </details>
   
-  <br>
+  <hr>
 
 - [background-\*](https://www.w3schools.com/cssref/css3_pr_background.asp) : `color` `image` `position` `size` `repeat` `origin` `clip` `attachment`
   
