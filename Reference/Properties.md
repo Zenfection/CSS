@@ -2,6 +2,8 @@
 
 Value chung là `initial` và `inherit`
 
+
+
 | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property                      | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description                                                                  | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value                        |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | [align-content](https://www.w3schools.com/cssref/css3_pr_align-content.asp)                                                                                      | Căn giữa các dòng bên trong `box`, khi các `item` không sử dụng hết không gian<br><br>==> Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-content) | `stretch` <br>`center` <br>`flex-start`<br>`flex-end`<br>`space-between`<br>`space-around`<br>`space-evenly`                                  |
@@ -23,6 +25,9 @@ Value chung là `initial` và `inherit`
 | [content](https://www.w3schools.com/cssref/pr_gen_content.asp)                                                                                                   | sử dụng chung với `pseudo-element` như `:before`, `:after`<br>để thêm nội dung vừa tạo                                                                                                                | `normal`<br>`none`<br>`counter`<br>`attr`<br>`string`<br>`open-quote`<br>`close-quote`<br>`no-open-quote`<br>`no-close-quote`<br>`url`(*url*) |
 | [counter-increment](https://www.w3schools.com/cssref/pr_gen_counter-increment.asp)<br>[counter-reset](https://www.w3schools.com/cssref/pr_gen_counter-reset.asp) | - tăng hoặc giảm giá trị của một *hay* nhiều `CSS counters`<br>- tạo hoặc reset một *hay* nhiều `CSS counters`                                                                                        | `none`<br>*id number*                                                                                                                         |
 | [cursor](https://www.w3schools.com/cssref/pr_class_cursor.asp)                                                                                                   | chỉ định con trỏ chuột hiển thị khi đi qua một phần tử                                                                                                                                                | nhiều lắm vào coi [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_cursor&preval=initial)                               |
+| [direction](https://www.w3schools.com/cssref/pr_text_direction.asp)                                                                                              | hướng văn bảy *hoặc* hướng viết                                                                                                                                                                       | `ltr`<br>`rtl`                                                                                                                                |
+| [display](https://www.w3schools.com/cssref/pr_class_display.asp)                                                                                                 | cách phần tử hiển thị                                                                                                                                                                                 | nhiều lắm, coi [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_display)                                                |
+| [empty-cells](https://www.w3schools.com/cssref/pr_tab_empty-cells.asp)                                                                                           | có hiển thị `borders` và `background` trên ô trống trong `table` hay không                                                                                                                            | `show`<br>`hide`                                                                                                                              |
 
 - [aniamtion-\*](https://www.w3schools.com/cssref/css3_pr_animation.asp) : `name` `duration` `timing-function` `delay` `interation-count` `direction` `fill mode` `play-state`
   
@@ -43,7 +48,7 @@ Value chung là `initial` và `inherit`
   | [play-state](https://www.w3schools.com/cssref/css3_pr_animation-play-state.asp)                                                             | Chỉ địn hoạt ảnh dang chạy *hoặc* tạm dừng                                                                                           | `pause`<br>`running`<br>                                                                                                                                   |
   
   </details>
-
+  
   <br>
 
 - [background-\*](https://www.w3schools.com/cssref/css3_pr_background.asp) : `color` `image` `position` `size` `repeat` `origin` `clip` `attachment`
@@ -65,7 +70,7 @@ Value chung là `initial` và `inherit`
   | [attachment](https://www.w3schools.com/cssref/pr_background-attachment.asp)                                                                 | đặt hình nền cuộn với phần còn lại của trang hay được cố định                                                                        | `scroll`<br>`fixed`<br>`local`<br>                                                                                                                                                                                                                                                                   |
   
   </details>
-
+  
   <br>
 
 - [border-\*](https://www.w3schools.com/cssref/pr_border.asp) : `width` `style` `color` 
@@ -87,7 +92,7 @@ Value chung là `initial` và `inherit`
 > 
 >  [border-top-*](https://www.w3schools.com/cssref/pr_border-top.asp), [border-right-*](https://www.w3schools.com/cssref/pr_border-right.asp) , [border-bottom-*](https://www.w3schools.com/cssref/pr_border-bottom.asp), [border-left-*](https://www.w3schools.com/cssref/pr_border-left.asp): `width` `style` `color`
 
-  <br>
+<br>
 
 - [border-image-\*](https://www.w3schools.com/cssref/css3_pr_border-image.asp) : `source` `slice` `width` `outset` `repeat`
   
@@ -105,7 +110,7 @@ Value chung là `initial` và `inherit`
   | [repeat](https://www.w3schools.com/cssref/css3_pr_border-image-repeat.asp)                                                                  | chỉ định ảnh đường viễn lặp lại (*tròn hay, kèo dài*)                                                                                | `stretch`<br>`repeat`<br>`round`<br>`space`                                                                            |
   
   </details>
-
+  
   <br>
 
 - [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) : bo tròn góc
@@ -114,7 +119,7 @@ Value chung là `initial` và `inherit`
     <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
   
   <br>
-
+  
   ⚠️ Các đối số sẽ định dạng khác nhau : 
   
   | Đối số              | chức năng (bo tròn)                                                                                  |
@@ -130,10 +135,9 @@ Value chung là `initial` và `inherit`
   > 
   > [border-top-left-radius](https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp), [border-top-right-radius](https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.asp), [border-bottom-right-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp), [border-bottom-left-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp)
 
+</details>
 
-  </details>
-
-  <br>
+<br>
 
 - [columns](https://www.w3schools.com/cssref/css3_pr_columns.asp) : `width` `count`
   
@@ -148,7 +152,7 @@ Value chung là `initial` và `inherit`
   | [count](https://www.w3schools.com/cssref/css3_pr_column-count.asp)                                                                          | số `columns` mà một phần tử sẽ chia ra                                                                                               | *number*<br>`auto`                                                                                                     |
   
   </details>
-
+  
   <br>
 
 - [column-rule-*](https://www.w3schools.com/cssref/css3_pr_column-rule.asp) : `width` `style` `color`
@@ -165,25 +169,8 @@ Value chung là `initial` và `inherit`
   | [color](https://www.w3schools.com/cssref/css3_pr_column-rule-color.asp)                                                                     | màu của quy tắc giữa các `columns`                                                                                                   | *color*                                                                                                                |
   
   </details>
-
-  <br>
   
----
-
-## D
-
-| ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description |     |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | --- |
-| [direction](https://www.w3schools.com/cssref/pr_text_direction.asp)                                                                         |             |     |
-| [display](https://www.w3schools.com/cssref/pr_class_display.asp)                                                                            |             |     |
-
----
-
-## E
-
-| ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [empty-cells](https://www.w3schools.com/cssref/pr_tab_empty-cells.asp)                                                                      |             |
+  <br>
 
 ---
 
