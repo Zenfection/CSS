@@ -92,7 +92,7 @@ Value chung là `initial` và `inherit`
 > 
 >  [border-top-*](https://www.w3schools.com/cssref/pr_border-top.asp), [border-right-*](https://www.w3schools.com/cssref/pr_border-right.asp) , [border-bottom-*](https://www.w3schools.com/cssref/pr_border-bottom.asp), [border-left-*](https://www.w3schools.com/cssref/pr_border-left.asp): `width` `style` `color`
 
-  <hr>
+    <hr>
 
 - [border-image-\*](https://www.w3schools.com/cssref/css3_pr_border-image.asp) : `source` `slice` `width` `outset` `repeat`
   
