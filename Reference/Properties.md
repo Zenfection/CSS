@@ -2,8 +2,6 @@
 
 Value chung là `initial` và `inherit`
 
-
-
 | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property                      | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description                                                                  | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value                        |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | [align-content](https://www.w3schools.com/cssref/css3_pr_align-content.asp)                                                                                      | Căn giữa các dòng bên trong `box`, khi các `item` không sử dụng hết không gian<br><br>==> Tham khảo các `value` [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_align-content) | `stretch` <br>`center` <br>`flex-start`<br>`flex-end`<br>`space-between`<br>`space-around`<br>`space-evenly`                                  |
@@ -29,7 +27,7 @@ Value chung là `initial` và `inherit`
 | [display](https://www.w3schools.com/cssref/pr_class_display.asp)                                                                                                 | cách phần tử hiển thị                                                                                                                                                                                 | nhiều lắm, coi [tại đây](https://www.w3schools.com/cssref/playit.asp?filename=playcss_display)                                                |
 | [empty-cells](https://www.w3schools.com/cssref/pr_tab_empty-cells.asp)                                                                                           | có hiển thị `borders` và `background` trên ô trống trong `table` hay không                                                                                                                            | `show`<br>`hide`                                                                                                                              |
 
-- [aniamtion-\*](https://www.w3schools.com/cssref/css3_pr_animation.asp) : `name` `duration` `timing-function` `delay` `interation-count` `direction` `fill mode` `play-state`
+- ![icons8-animated.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-00-03-icons8-animated.png) [aniamtion-\*](https://www.w3schools.com/cssref/css3_pr_animation.asp) : `name` `duration` `timing-function` `delay` `interation-count` `direction` `fill mode` `play-state`
   
   <details>
     <summary><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-39-39-icons8-sort_by_follow_up_date.png"> Cụ thể các thuộc tính</summary>
@@ -87,11 +85,11 @@ Value chung là `initial` và `inherit`
   | [border-color](https://www.w3schools.com/cssref/pr_border-color.asp)                                                                        | Màu của bốn đường viền                                                                                                               | *color*<br>`transparent`                                                                                               |
   
   </details>
-
+  
   > ==> Tương tự ta cũng có thể định dạng cụ thể từng đường viễn như:
   > 
   >  [border-top-*](https://www.w3schools.com/cssref/pr_border-top.asp), [border-right-*](https://www.w3schools.com/cssref/pr_border-right.asp) , [border-bottom-*](https://www.w3schools.com/cssref/pr_border-bottom.asp), [border-left-*](https://www.w3schools.com/cssref/pr_border-left.asp): `width` `style` `color`
-
+  
   <hr>
 
 - [border-image-\*](https://www.w3schools.com/cssref/css3_pr_border-image.asp) : `source` `slice` `width` `outset` `repeat`
@@ -134,9 +132,9 @@ Value chung là `initial` và `inherit`
   > ==> Tương tự cũng có thể định dạng cụ thể `4` góc cạnh như sau : 
   > 
   > [border-top-left-radius](https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp), [border-top-right-radius](https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.asp), [border-bottom-right-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp), [border-bottom-left-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp)
-
+  
   </details>
-
+  
   <hr>
 
 - [columns](https://www.w3schools.com/cssref/css3_pr_columns.asp) : `width` `count`
