@@ -223,7 +223,7 @@ Value chung là `initial` và `inherit`
 
   <hr>
 
-- ![icons8fontsapppng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-14-16-20-icons8-fonts_app.png) [font-*](https://www.w3schools.com/cssref/pr_font_font.asp) : `style` `variant` `weight` `size` `family`
+- ![icons8fontsapppng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-14-34-03-icons8-fonts_app.png) [font-*](https://www.w3schools.com/cssref/pr_font_font.asp) : `style` `variant` `weight` `size` `family`
   
   <details>
     <summary> Cụ thể các thuộc tính</summary>
@@ -239,7 +239,7 @@ Value chung là `initial` và `inherit`
   | [-family](https://www.w3schools.com/cssref/pr_font_font-family.asp)                                                                         | kiểu font của văn bản                                                                                                                | *family-name*<br>*generic-family*                                                                                               |
   
   </details>
-  
+
   <hr>
 
 ## H
