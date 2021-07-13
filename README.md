@@ -12,7 +12,8 @@ Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giá
 
 ## ---Từ điển CSS3
 
-<a href="https://github.com/Zenfection/CSS/blob/master/Reference/Properties.md"><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-13-33-04-property.png" width="160px"><a>
+<a href="https://github.com/Zenfection/CSS/blob/master/Reference/Properties.md"><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-13-39-42-property.png" width="160px"><a>
+<a href="https://github.com/Zenfection/CSS/blob/master/Reference/Selectors.md"><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-13-42-45-selectors.png"></a>
 
 ---
 
