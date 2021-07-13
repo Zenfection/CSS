@@ -130,7 +130,7 @@ Value chung là `initial` và `inherit`
   **Value** : *length* | *%* 
   
   </details>
-
+  
   > ==> Tương tự cũng có thể định dạng cụ thể `4` góc cạnh như sau : 
   > 
   > [border-top-left-radius](https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp), [border-top-right-radius](https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.asp), [border-bottom-right-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp), [border-bottom-left-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp)
@@ -169,66 +169,6 @@ Value chung là `initial` và `inherit`
   </details>
   
   <hr>
-
-## F
-
-| ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [filter](https://www.w3schools.com/cssref/css3_pr_filter.asp)                                                                               |             |
-| [flex](https://www.w3schools.com/cssref/css3_pr_flex.asp)                                                                                   |             |
-| [flex-basis](https://www.w3schools.com/cssref/css3_pr_flex-basis.asp)                                                                       |             |
-| [flex-direction](https://www.w3schools.com/cssref/css3_pr_flex-direction.asp)                                                               |             |
-| [flex-flow](https://www.w3schools.com/cssref/css3_pr_flex-flow.asp)                                                                         |             |
-| [flex-grow](https://www.w3schools.com/cssref/css3_pr_flex-grow.asp)                                                                         |             |
-| [flex-shrink](https://www.w3schools.com/cssref/css3_pr_flex-shrink.asp)                                                                     |             |
-| [flex-wrap](https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp)                                                                         |             |
-| [float](https://www.w3schools.com/cssref/pr_class_float.asp)                                                                                |             |
-| [font](https://www.w3schools.com/cssref/pr_font_font.asp)                                                                                   |             |
-| [@font-face](https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp)                                                                   |             |
-| [font-family](https://www.w3schools.com/cssref/pr_font_font-family.asp)                                                                     |             |
-| [font-feature-settings](https://www.w3schools.com/cssref/css3_pr_font-feature-settings.asp)                                                 |             |
-| @font-feature-values                                                                                                                        |             |
-| [font-kerning](https://www.w3schools.com/cssref/css3_pr_font-kerning.asp)                                                                   |             |
-| font-language-override                                                                                                                      |             |
-| [font-size](https://www.w3schools.com/cssref/pr_font_font-size.asp)                                                                         |             |
-| [font-size-adjust](https://www.w3schools.com/cssref/css3_pr_font-size-adjust.asp)                                                           |             |
-| [font-stretch](https://www.w3schools.com/cssref/css3_pr_font-stretch.asp)                                                                   |             |
-| [font-style](https://www.w3schools.com/cssref/pr_font_font-style.asp)                                                                       |             |
-| font-synthesis                                                                                                                              |             |
-| [font-variant](https://www.w3schools.com/cssref/pr_font_font-variant.asp)                                                                   |             |
-| font-variant-alternates                                                                                                                     |             |
-| [font-variant-caps](https://www.w3schools.com/cssref/css3_pr_font-variant-caps.asp)                                                         |             |
-| font-variant-east-asian                                                                                                                     |             |
-| font-variant-ligatures                                                                                                                      |             |
-| font-variant-numeric                                                                                                                        |             |
-| font-variant-position                                                                                                                       |             |
-| [font-weight](https://www.w3schools.com/cssref/pr_font_weight.asp)                                                                          |             |
-
----
-
-## G
-
-| ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [gap](https://www.w3schools.com/cssref/css3_pr_gap.asp)                                                                                     |             |
-| [grid](https://www.w3schools.com/cssref/pr_grid.asp)                                                                                        |             |
-| [grid-area](https://www.w3schools.com/cssref/pr_grid-area.asp)                                                                              |             |
-| [grid-auto-columns](https://www.w3schools.com/cssref/pr_grid-auto-columns.asp)                                                              |             |
-| [grid-auto-flow](https://www.w3schools.com/cssref/pr_grid-auto-flow.asp)                                                                    |             |
-| [grid-auto-rows](https://www.w3schools.com/cssref/pr_grid-auto-rows.asp)                                                                    |             |
-| [grid-column](https://www.w3schools.com/cssref/pr_grid-column.asp)                                                                          |             |
-| [grid-column-end](https://www.w3schools.com/cssref/pr_grid-column-end.asp)                                                                  |             |
-| [grid-column-gap](https://www.w3schools.com/cssref/pr_grid-column-gap.asp)                                                                  |             |
-| [grid-column-start](https://www.w3schools.com/cssref/pr_grid-column-start.asp)                                                              |             |
-| [grid-gap](https://www.w3schools.com/cssref/pr_grid-gap.asp)                                                                                |             |
-| [grid-row](https://www.w3schools.com/cssref/pr_grid-row.asp)                                                                                |             |
-| [grid-row-end](https://www.w3schools.com/cssref/pr_grid-row-end.asp)                                                                        |             |
-| [grid-row-gap](https://www.w3schools.com/cssref/pr_grid-row-gap.asp)                                                                        |             |
-| [grid-row-start](https://www.w3schools.com/cssref/pr_grid-row-start.asp)                                                                    |             |
-| [grid-template](https://www.w3schools.com/cssref/pr_grid-template.asp)                                                                      |             |
-| [grid-template-areas](https://www.w3schools.com/cssref/pr_grid-template-areas.asp)                                                          |             |
-| [grid-template-columns](https://www.w3schools.com/cssref/pr_grid-template-columns.asp)                                                      |             |
-| [grid-template-rows](https://www.w3schools.com/cssref/pr_grid-template-rows.asp)                                                            |             |
 
 ---
 
