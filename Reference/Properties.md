@@ -44,6 +44,10 @@ Value chung là `initial` và `inherit`
 |                                                                                                                                                                  |                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                            |
 |                                                                                                                                                                  |                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                            |
 
+---
+
+## 2.
+
 - ![icons8-animated.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-00-03-icons8-animated.png) [aniamtion-\*](https://www.w3schools.com/cssref/css3_pr_animation.asp) : `name` `duration` `timing-function` `delay` `interation-count` `direction` `fill mode` `play-state`
   
   <details>
@@ -187,7 +191,51 @@ Value chung là `initial` và `inherit`
   
   <hr>
 
----
+- ![icons8springinmotionpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-14-06-35-icons8-spring_in_motion.png) [flex-*](https://www.w3schools.com/cssref/css3_pr_flex.asp) : `grow` `shrink` `basis`
+  
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
+  | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
+  | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+  | [grow](https://www.w3schools.com/cssref/css3_pr_flex-grow.asp)                                                                              | `item` sẽ **dãn ra** so với `item` còn lại                                                                                           | *number*                                                                                                               |
+  | [shrink](https://www.w3schools.com/cssref/css3_pr_flex-shrink.asp)                                                                          | `item` sẽ **co lại** so với các `item` còn lại                                                                                       | *number*                                                                                                               |
+  | [basis](https://www.w3schools.com/cssref/css3_pr_flex-basis.asp)                                                                            | độ dài ban đầu của một `flexible item`                                                                                               | *number*<br>`auto`                                                                                                     |
+
+  <hr>
+
+- ![icons8blanketpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-14-09-58-icons8-blanket.png) [flex-flow-*](https://www.w3schools.com/cssref/css3_pr_flex-flow.asp) : `direction` `wrap`
+  
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
+  | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
+  | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+  | [direction](https://www.w3schools.com/cssref/css3_pr_flex-direction.asp)                                                                    | hướng của các `flexible item`                                                                                                        | `row`<br>`row-reverse`<br>`column`<br>`column-reverse`                                                                 |
+  | [wrap](https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp)                                                                              | `flexible item` có tự động `wrap` hay không<br>(*tự động xuống dòng*)                                                                | `nowrap`<br>`wrap`<br>`wrap-reverse`                                                                                   |
+
+  <hr>
+
+- ![icons8fontsapppng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-14-16-20-icons8-fonts_app.png) [font-*](https://www.w3schools.com/cssref/pr_font_font.asp) : `style` `variant` `weight` `size` `family`
+  
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
+  | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value          |
+  | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+  | [style](https://www.w3schools.com/cssref/pr_font_font-style.asp)                                                                            | định dạng của văn bản                                                                                                                | `normal`<br>`italic`<br>`oblique`                                                                                               |
+  | [variant](https://www.w3schools.com/cssref/pr_font_font-variant.asp)                                                                        | văn bản có được hiển thị bằng font `small-caps` hay không                                                                            | `normal`<br>`small-caps`                                                                                                        |
+  | [weight](https://www.w3schools.com/cssref/pr_font_weight.asp)                                                                               | độ đậm của font                                                                                                                      | `normal`<br>`bold`<br>`bolder`<br>*number:*`100`->`900`                                                                         |
+  | [size](https://www.w3schools.com/cssref/pr_font_font-size.asp)                                                                              | độ lớn của font                                                                                                                      | `medium`<br>`xx-small` \| `x-small`\| `small`<br>`large` \| `x-large` \| `xx-large`<br>`smaller` \| `larger`<br>*length* \| *%* |
+  | [family](https://www.w3schools.com/cssref/pr_font_font-family.asp)                                                                          | kiểu font của văn bản                                                                                                                | *family-name*<br>*generic-family*                                                                                               |
+
+  <hr>
 
 ## H
 
@@ -395,3 +443,7 @@ Value chung là `initial` và `inherit`
 | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description |
 | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 | [z-index]()                                                                                                                                 |             |
+
+---
+
+## 3. Limited
