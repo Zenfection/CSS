@@ -203,6 +203,8 @@ Value chung là `initial` và `inherit`
   | [-shrink](https://www.w3schools.com/cssref/css3_pr_flex-shrink.asp)                                                                         | `item` sẽ **co lại** so với các `item` còn lại                                                                                       | *number*                                                                                                               |
   | [-basis](https://www.w3schools.com/cssref/css3_pr_flex-basis.asp)                                                                           | độ dài ban đầu của một `flexible item`                                                                                               | *number*<br>`auto`                                                                                                     |
   
+  </details>
+
   <hr>
 
 - ![icons8blanketpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-14-09-58-icons8-blanket.png) [flex-flow-*](https://www.w3schools.com/cssref/css3_pr_flex-flow.asp) : `direction` `wrap`
@@ -217,6 +219,8 @@ Value chung là `initial` và `inherit`
   | [-direction](https://www.w3schools.com/cssref/css3_pr_flex-direction.asp)                                                                   | hướng của các `flexible item`                                                                                                        | `row`<br>`row-reverse`<br>`column`<br>`column-reverse`                                                                 |
   | [-wrap](https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp)                                                                             | `flexible item` có tự động `wrap` hay không<br>(*tự động xuống dòng*)                                                                | `nowrap`<br>`wrap`<br>`wrap-reverse`                                                                                   |
   
+  </details>
+
   <hr>
 
 - ![icons8fontsapppng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-14-16-20-icons8-fonts_app.png) [font-*](https://www.w3schools.com/cssref/pr_font_font.asp) : `style` `variant` `weight` `size` `family`
@@ -233,6 +237,8 @@ Value chung là `initial` và `inherit`
   | [-weight](https://www.w3schools.com/cssref/pr_font_weight.asp)                                                                              | độ đậm của font                                                                                                                      | `normal`<br>`bold`<br>`bolder`<br>*number:*`100`->`900`                                                                         |
   | [-size](https://www.w3schools.com/cssref/pr_font_font-size.asp)                                                                             | độ lớn của font                                                                                                                      | `medium`<br>`xx-small` \| `x-small`\| `small`<br>`large` \| `x-large` \| `xx-large`<br>`smaller` \| `larger`<br>*length* \| *%* |
   | [-family](https://www.w3schools.com/cssref/pr_font_font-family.asp)                                                                         | kiểu font của văn bản                                                                                                                | *family-name*<br>*generic-family*                                                                                               |
+  
+  </details>
   
   <hr>
 
