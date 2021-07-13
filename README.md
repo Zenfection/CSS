@@ -4,91 +4,26 @@
 
 #### Mình có đôi lời muốn nói sau đây:
 
-| Tác giả     | Phóng tác  | Năm viết |
-| ----------- | ---------- | -------- |
-| Quantrimang | Zenfection | 2021     |
+| <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-14-36-27-logo%20cat.png" title="" alt="logo cat.png" width="40"> Tác giả | Nguồn tài liệu                                                                                                                                                                                                                                                                                                                                                                             | <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/03/20-13-59-20-icons8-new_year's_eve.png" title="" alt="icons8-new_year's_eve.png" width="40"> Năm |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Zenfection](https://facebook.com/Zenfection)                                                                                                           | <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-10-12-23-unnamed.png" title="" alt="unnamed.png" width="35">[Quantrimang](http://www.cit.ctu.edu.vn/)<br><img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-10-13-19-w3school.png" title="" alt="w3school.png" width="35">[W3school](https://www.w3schools.com/css/default.asp) | 2021                                                                                                                                                                        |
 
 Như các bạn đã thấy, toàn bộ tài liệu ở đây được theo giáo trình của Quantrimang, mình là người phóng tác lại nó cho nó ngắn gọn hơn, chủ yếu là tối ưu nó hơn, dĩ nhiên mình sẽ thêm khá nhiều thứ vào đó, đến với **`CSS3 for Kid`** bạn sẽ hiểu từ căn bản đến thành thạo về CSS3. Chúc bạn học tập tốt nhé và sau đây là: 
 
 ## Mục lục:
 
-### ——CSS3 cơ bản
-
-            ➡ [Bài 1.Giới thiệu](https://github.com/Zenfection/CSS/blob/master/BasicCSS/1.Gioithieu.md)
-
-            ➡ [Bài 2.Cú pháp](https://github.com/Zenfection/CSS/blob/master/BasicCSS/2.Cuphap.md)
-
-            ➡ [Bài 3.Vị trí](https://github.com/Zenfection/CSS/blob/master/BasicCSS/3.Vitri.md)
-
-            ➡ [Bài 4.Color](https://github.com/Zenfection/CSS/blob/master/BasicCSS/4.Color.md)
-
-            ➡ [Bài 5.Background](https://github.com/Zenfection/CSS/blob/master/BasicCSS/5.Background.md)
-
-            ➡ [Bài 6.Border](https://github.com/Zenfection/CSS/blob/master/BasicCSS/6.Border.md)
-
-            ➡ [Bài 7.Margin](https://github.com/Zenfection/CSS/blob/master/BasicCSS/7.Margin.md)
-
-            ➡ [Bài 8.Padding](https://github.com/Zenfection/CSS/blob/master/BasicCSS/8.Padding.md)
-
-            ➡ [Bài 9.Width và Height](https://github.com/Zenfection/CSS/blob/master/BasicCSS/9.Width%26Height.md)
-
-            ➡ [Bài 10.Box Model](https://github.com/Zenfection/CSS/blob/master/BasicCSS/10.Box%20Model.md)
-
-            ➡ [Bài 11.Outline](https://github.com/Zenfection/CSS/blob/master/BasicCSS/11.Outline.md)
-
-            ➡ [Bài 12.Text](https://github.com/Zenfection/CSS/blob/master/BasicCSS/12.Text.md)
-
-            ➡ [Bài 13.Font](https://github.com/Zenfection/CSS/blob/master/BasicCSS/13.Font.md)
-
-            ➡ [Bài 14.Icon](https://github.com/Zenfection/CSS/blob/master/BasicCSS/14.Icon.md)
-
-            ➡ [Bài 15.Link](https://github.com/Zenfection/CSS/blob/master/BasicCSS/15.Link.md)
-
-            ➡ [Bài 16.List](https://github.com/Zenfection/CSS/blob/master/BasicCSS/16.List.md)
-
-            ➡ [Bài 17.Table](https://github.com/Zenfection/CSS/blob/master/BasicCSS/17.Table.md)
-
-            ➡ [Bài 18.Display](https://github.com/Zenfection/CSS/blob/master/BasicCSS/18.Display.md)
-
-            ➡ [Bài 19.Max-width](https://github.com/Zenfection/CSS/blob/master/BasicCSS/19.Max_width.md)
-
-            ➡ [Bài 20.Position](https://github.com/Zenfection/CSS/blob/master/BasicCSS/20.Position.md)
-
-            ➡ [Bài 21.Overflow](https://github.com/Zenfection/CSS/blob/master/BasicCSS/21.Overflow.md)
-
-            ➡ [Bài 22.Float và Clear](https://github.com/Zenfection/CSS/blob/master/BasicCSS/22.Float%26Clear.md)
-
-            ➡ [Bài 23.Inline Block](https://github.com/Zenfection/CSS/blob/master/BasicCSS/23.Inline%20Block.md)
-
-            ➡ [Bài 24.Align](https://github.com/Zenfection/CSS/blob/master/BasicCSS/24.Align.md)
-
-            ➡ [Bài 25.Combinator](https://github.com/Zenfection/CSS/blob/master/BasicCSS/25.Combinator.md)
-
-            ➡ [Bài 26.Pseudo-Class](https://github.com/Zenfection/CSS/blob/master/BasicCSS/26.Pseudo-Class.md)
-
-            ➡ [Bài 27.Pseudo-Element](https://github.com/Zenfection/CSS/blob/master/BasicCSS/27.Pseudo-Element.md)
-
-            ➡ [Bài 28.Opacity](https://github.com/Zenfection/CSS/blob/master/BasicCSS/28.Opacity.md)
-
-            ➡ [Bài 29.Navigation Bar](https://github.com/Zenfection/CSS/blob/master/BasicCSS/29.Navigation%20Bar.md)
-
-            ➡ [Bài 30.Dropdown](https://github.com/Zenfection/CSS/blob/master/BasicCSS/30.Dropdown.md)
-
-            ➡ [Bài 31.Image Gallery](https://github.com/Zenfection/CSS/blob/master/BasicCSS/31.Image%20Gallery.md)
-
-            ➡ [Bài 32.Image Sprite](https://github.com/Zenfection/CSS/blob/master/BasicCSS/32.Image%20Sprite.md)
-
-            ➡ [Bài 33.Attribute Selector](https://github.com/Zenfection/CSS/blob/master/BasicCSS/33.Attribute%20Selector.md)
-
-            ➡ [Bài 34.Form](https://github.com/Zenfection/CSS/blob/master/BasicCSS/34.Form.md)
-
-            ➡ [Bài 35.Counter](https://github.com/Zenfection/CSS/blob/master/BasicCSS/35.Counter.md)
-
-            ➡ [Bài 36.Layout](https://github.com/Zenfection/CSS/blob/master/BasicCSS/36.Layout.md)
-
-            ➡ [Bài 37.Unit](https://github.com/Zenfection/CSS/blob/master/BasicCSS/37.Unit.md)
-
-            ➡ [Bài 38.Specificity](https://github.com/Zenfection/CSS/blob/master/BasicCSS/38.Specificity.md)
+| Bài 1-10                                                                                        | Bài 11-20                                                                              | Bài 21-30                                                                                          | Bài 30-38                                                                                                  |
+| ----------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [1.Giới thiệu](https://github.com/Zenfection/CSS/blob/master/BasicCSS/1.Gioithieu.md)           | [11.Outline](https://github.com/Zenfection/CSS/blob/master/BasicCSS/11.Outline.md)     | [21.Overflow](https://github.com/Zenfection/CSS/blob/master/BasicCSS/21.Overflow.md)               | [31.Image Gallery](https://github.com/Zenfection/CSS/blob/master/BasicCSS/31.Image%20Gallery.md)           |
+| [2.Cú pháp](https://github.com/Zenfection/CSS/blob/master/BasicCSS/2.Cuphap.md)                 | [12.Text](https://github.com/Zenfection/CSS/blob/master/BasicCSS/12.Text.md)           | [22.Float và Clear](https://github.com/Zenfection/CSS/blob/master/BasicCSS/22.Float%26Clear.md)    | [32.Image Sprite](https://github.com/Zenfection/CSS/blob/master/BasicCSS/32.Image%20Sprite.md)             |
+| [3.Vị trí](https://github.com/Zenfection/CSS/blob/master/BasicCSS/3.Vitri.md)                   | [13.Font](https://github.com/Zenfection/CSS/blob/master/BasicCSS/13.Font.md)           | [23.Inline Block](https://github.com/Zenfection/CSS/blob/master/BasicCSS/23.Inline%20Block.md)     | [33.Attribute Selector](https://github.com/Zenfection/CSS/blob/master/BasicCSS/33.Attribute%20Selector.md) |
+| [4.Color](https://github.com/Zenfection/CSS/blob/master/BasicCSS/4.Color.md)                    | [14.Icon](https://github.com/Zenfection/CSS/blob/master/BasicCSS/14.Icon.md)           | [24.Align](https://github.com/Zenfection/CSS/blob/master/BasicCSS/24.Align.md)                     | [34.Form](https://github.com/Zenfection/CSS/blob/master/BasicCSS/34.Form.md)                               |
+| [5.Background](https://github.com/Zenfection/CSS/blob/master/BasicCSS/5.Background.md)          | [15.Link](https://github.com/Zenfection/CSS/blob/master/BasicCSS/15.Link.md)           | [25.Combinator](https://github.com/Zenfection/CSS/blob/master/BasicCSS/25.Combinator.md)           | [35.Counter](https://github.com/Zenfection/CSS/blob/master/BasicCSS/35.Counter.md)                         |
+| [6.Border](https://github.com/Zenfection/CSS/blob/master/BasicCSS/6.Border.md)                  | [16.List](https://github.com/Zenfection/CSS/blob/master/BasicCSS/16.List.md)           | [26.Pseudo-Class](https://github.com/Zenfection/CSS/blob/master/BasicCSS/26.Pseudo-Class.md)       | [36.Layout](https://github.com/Zenfection/CSS/blob/master/BasicCSS/36.Layout.md)                           |
+| [7.Margin](https://github.com/Zenfection/CSS/blob/master/BasicCSS/7.Margin.md)                  | [17.Table](https://github.com/Zenfection/CSS/blob/master/BasicCSS/17.Table.md)         | [27.Pseudo-Element](https://github.com/Zenfection/CSS/blob/master/BasicCSS/27.Pseudo-Element.md)   | [37.Unit](https://github.com/Zenfection/CSS/blob/master/BasicCSS/37.Unit.md)                               |
+| [8.Padding](https://github.com/Zenfection/CSS/blob/master/BasicCSS/8.Padding.md)                | [18.Display](https://github.com/Zenfection/CSS/blob/master/BasicCSS/18.Display.md)     | [28.Opacity](https://github.com/Zenfection/CSS/blob/master/BasicCSS/28.Opacity.md)                 | [38.Specificity](https://github.com/Zenfection/CSS/blob/master/BasicCSS/38.Specificity.md)                 |
+| [9.Width và Height](https://github.com/Zenfection/CSS/blob/master/BasicCSS/9.Width%26Height.md) | [19.Max-width](https://github.com/Zenfection/CSS/blob/master/BasicCSS/19.Max_width.md) | [29.Navigation Bar](https://github.com/Zenfection/CSS/blob/master/BasicCSS/29.Navigation%20Bar.md) |                                                                                                            |
+| [10.Box Model](https://github.com/Zenfection/CSS/blob/master/BasicCSS/10.Box%20Model.md)        | [20.Position](https://github.com/Zenfection/CSS/blob/master/BasicCSS/20.Position.md)   | [30.Dropdown](https://github.com/Zenfection/CSS/blob/master/BasicCSS/30.Dropdown.md)               |                                                                                                            |
 
 ### ——CSS3 nâng cao
 
