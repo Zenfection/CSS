@@ -204,7 +204,7 @@ Value chung là `initial` và `inherit`
   | [-basis](https://www.w3schools.com/cssref/css3_pr_flex-basis.asp)                                                                           | độ dài ban đầu của một `flexible item`                                                                                               | *number*<br>`auto`                                                                                                     |
   
   </details>
-
+  
   <hr>
 
 - ![icons8blanketpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-14-09-58-icons8-blanket.png) [flex-flow-*](https://www.w3schools.com/cssref/css3_pr_flex-flow.asp) : `direction` `wrap`
@@ -220,7 +220,7 @@ Value chung là `initial` và `inherit`
   | [-wrap](https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp)                                                                             | `flexible item` có tự động `wrap` hay không<br>(*tự động xuống dòng*)                                                                | `nowrap`<br>`wrap`<br>`wrap-reverse`                                                                                   |
   
   </details>
-
+  
   <hr>
 
 - ![icons8fontsapppng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-14-34-03-icons8-fonts_app.png) [font-*](https://www.w3schools.com/cssref/pr_font_font.asp) : `style` `variant` `weight` `size` `family`
@@ -238,6 +238,84 @@ Value chung là `initial` và `inherit`
   | [-size](https://www.w3schools.com/cssref/pr_font_font-size.asp)                                                                             | độ lớn của font                                                                                                                      | `medium`<br>`xx-small` \| `x-small`\| `small`<br>`large` \| `x-large` \| `xx-large`<br>`smaller` \| `larger`<br>*length* \| *%* |
   | [-family](https://www.w3schools.com/cssref/pr_font_font-family.asp)                                                                         | kiểu font của văn bản                                                                                                                | *family-name*<br>*generic-family*                                                                                               |
   
+  </details>
+  
+  <hr>
+
+- ![icons8rearrangepng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-14-42-43-icons8-rearrange.png) [*-gap](https://www.w3schools.com/cssref/css3_pr_gap.asp) : `row` `column`
+  
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
+  | ![icons8showpropertypng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
+  | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+  | [row-](https://www.w3schools.com/cssref/css3_pr_row-gap.asp)<br>[column-](https://www.w3schools.com/cssref/css3_pr_column-gap.asp)       | khoảng cách giữa các **hàng** với nhau<br>khoảng cách giữa các **cột** với nhau                                                      | *length*<br>`normal`                                                                                                   |
+
+  </details>
+
+  <hr>
+
+- ![icons8datagridpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-14-43-06-icons8-data_grid.png) [grid-\*-\*](https://www.w3schools.com/cssref/pr_grid.asp) : `template-rows` `template-columns` `template-areas` `auto-rows` `auto-columns` `auto-flow`
+  
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
+  | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property                            | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
+  | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+  | - [-template-rows](https://www.w3schools.com/cssref/pr_grid-template-rows.asp)<br>- [-template-columns](https://www.w3schools.com/cssref/pr_grid-template-columns.asp) | - kích thước của **hàng** trong bố cục lưới<br>kích thước của **cột** trong bố cục lưới                                              | `none`<br>`auto`<br>`max-content`<br>`min-content`<br>*length*                                                         |
+  | [-template-areas](https://www.w3schools.com/cssref/pr_grid-template-areas.asp)                                                                                         | cách hiển thị **cột** và **hàng** sử dụng lưới `item`                                                                                | `none`<br>*itemnames*                                                                                                  |
+  | [-auto-rows](https://www.w3schools.com/cssref/pr_grid-auto-rows.asp)                                                                                                   | đặt kích thước **hàng** mặc định                                                                                                     | `auto`<br>`max-content`<br>`min-content`<br>*length*                                                                   |
+  | [-auto-columns](https://www.w3schools.com/cssref/pr_grid-auto-columns.asp)                                                                                             | đặt kích thước **cột** mặc định                                                                                                      | `auto`<br>fit-content()<br>`max-content`<br>`minmax`(*min*,*max*)<br>*length*                                          |
+  | [-auto-flow](https://www.w3schools.com/cssref/pr_grid-auto-flow.asp)                                                                                                   | cách các `item` tự động chèn vào lưới                                                                                                | `row`<br>`column`<br>`dense`<br>`row dense`<br>`column dense`                                                          |
+  
+  > ==> Tượng tự có thể định dạng cụ thể như sau :
+  > 
+  > [grid-template-*](https://www.w3schools.com/cssref/pr_grid-template.asp) : `start` `end`
+
+  </details>
+
+  <hr>
+
+- ![icons8modernartpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-14-43-45-icons8-modern_art.png) [grid-area](https://www.w3schools.com/cssref/pr_grid-area.asp) : `grid-row-start` `grid-column-start` `grid-row-end` `grid-column-end`
+  
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
+  | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
+  | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+  | [grid-row-start](https://www.w3schools.com/cssref/pr_grid-row-start.asp)                                                                    | nơi bắt đầu của `row-line` trong lưới `item`                                                                                         | `auto`<br>*row-line*                                                                                                   |
+  | [grid-column-start](https://www.w3schools.com/cssref/pr_grid-column-start.asp)                                                              | nơi bắt đầu của `column-line` trong lưới `item`                                                                                      | `auto`<br>`span` *n*<br>*column-line*                                                                                  |
+  | [grid-row-end](https://www.w3schools.com/cssref/pr_grid-row-end.asp)                                                                        | nơi kết thúc của `row-line` lưới `item`                                                                                              | `auto`<br>`span` *n*<br>*row-line*                                                                                     |
+  | [grid-column-end](https://www.w3schools.com/cssref/pr_grid-column-end.asp)                                                                  | nơi kết thúc của `column-line` trong lưới `item`                                                                                     | `auto`<br>`span` *n*<br>*column-line*                                                                                  |
+  
+  > ==> Tương tự bạn có thể định dạng cụ thể như :
+  > 
+  > - [grid-column-*](https://www.w3schools.com/cssref/pr_grid-column.asp) : `start` `end`
+  > 
+  > - [grid-row-*](https://www.w3schools.com/cssref/pr_grid-row.asp) : `start` `end`
+
+  </details>
+
+  <hr>
+
+- ![icons8mindthegappng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-14-44-20-icons8-mind_the_gap.png) [grid-*-gap](https://www.w3schools.com/cssref/pr_grid-gap.asp) : `row` `column`
+  
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
+  | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
+  | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+  | [-row-](https://www.w3schools.com/cssref/pr_grid-row-gap.asp)                                                                               | kích thước khoảng cách giữa các **hàng**                                                                                             | *length*                                                                                                               |
+  | [-column-](https://www.w3schools.com/cssref/pr_grid-column-gap.asp)                                                                         | kích thước khoảng cách giữa các **cột**                                                                                              | *length*                                                                                                               |
+
   </details>
 
   <hr>
