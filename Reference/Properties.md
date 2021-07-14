@@ -57,6 +57,11 @@ Value chung là `initial` và `inherit`
 | [outline-offset](https://www.w3schools.com/cssref/css3_pr_outline-offset.asp)                                                                                                                                                                                                            | thiết lập đường viền và vẽ nó ra ngoài rìa đường viền                                                                                                                                                                                                                                                                                                                      | *length*                                                                                                                                                                                                                                                   |
 | [overflow](https://www.w3schools.com/cssref/pr_pos_overflow.asp)<br>[overflow-x](https://www.w3schools.com/cssref/css3_pr_overflow-x.asp)<br>[overflow-y](https://www.w3schools.com/cssref/css3_pr_overflow-y.asp)                                                                       | - điều xảy ra khi nội dung tràn ra `box`<br>- cắt cạnh **trái**/**phải** của nội dung nếu nó tràn ra `box` hay không<br>- cắt cạnh **trên**/**dưới** của nội dung nếu nó tràn ra `box` hay không                                                                                                                                                                           | `visible`<br>`hidden`<br>`scroll`<br>`auto`                                                                                                                                                                                                                |
 | overflow-wrap                                                                                                                                                                                                                                                                            | `browser` có thể ngắt dòng trong các từ để ngăn tràn văn bản<br>(*khi văn bản quá dài để chứa trong `box`*)<br><br>==> tham khảo cụ thể [tại đây](http://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap)                                                                                                                                                           | `normal`<br>`anywhere`<br>`break-word`                                                                                                                                                                                                                     |
+| [page-break-before](https://www.w3schools.com/cssref/pr_print_pagebb.asp)<br>[page-break-after](https://www.w3schools.com/cssref/pr_print_pageba.asp)                                                                                                                                    | đặt hành vi ngắt trang **trước** một phần tử<br>đặt hành vi ngắt trang **sau** một phần tử                                                                                                                                                                                                                                                                                 | `auto`<br>`always`<br>`avoid`<br>`left`<br>`right`                                                                                                                                                                                                         |
+| [page-break-inside](https://www.w3schools.com/cssref/pr_print_pagebi.asp)                                                                                                                                                                                                                | đặt hành vi ngắt trang **bên trong** một phần tử                                                                                                                                                                                                                                                                                                                           | `auto`<br>`avoid`                                                                                                                                                                                                                                          |
+| [perspective](https://www.w3schools.com/cssref/css3_pr_perspective.asp)<br>[perspective-origin](https://www.w3schools.com/cssref/css3_pr_perspective-origin.asp)                                                                                                                         | - cung cấp một phần `3D-positioned` cho một số góc nhìn<br>- xác định vị trí mà người dùng đang nhìn phần tử `3D positioned`                                                                                                                                                                                                                                               | *x-axis*: `left` \| `center` \| `right` \| *length* \| *%*<br>*y-axis*: `left` \| `center` \| `right` \| *length* \| *%                                                                                                                                    |
+| [pointer-events](https://www.w3schools.com/cssref/css3_pr_pointer-events.asp)                                                                                                                                                                                                            | phần tử có phản ứng với các sự kiện con trỏ hay không                                                                                                                                                                                                                                                                                                                      | `auto`<br>`none`                                                                                                                                                                                                                                           |
+| [position](https://www.w3schools.com/cssref/pr_class_position.asp)                                                                                                                                                                                                                       | loại phương pháp định vị được sử dụng cho phần tử                                                                                                                                                                                                                                                                                                                          | `static`<br>`absolute`<br>`fixed`<br>`relative`<br>`sticky`                                                                                                                                                                                                |
 
 ---
 
@@ -358,7 +363,7 @@ Value chung là `initial` và `inherit`
     <summary> Cụ thể các thuộc tính</summary>
   
   <br>
-
+  
   **Value** : *length* | *%* | `auto`
   
   ⚠️ Các đối số sẽ định dạng khác nhau :
@@ -379,9 +384,9 @@ Value chung là `initial` và `inherit`
   > - [margin-bottom](https://www.w3schools.com/cssref/pr_margin-bottom.asp)
   > 
   > - [margin-left](https://www.w3schools.com/cssref/pr_margin-left.asp)
-
+  
   </details>
-
+  
   <hr>
 
 - ![icons8outlinepng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/14-12-39-49-icons8-outline.png) [outline-*](https://www.w3schools.com/cssref/pr_outline.asp) : `width` `style` `color`
@@ -390,86 +395,31 @@ Value chung là `initial` và `inherit`
     <summary> Cụ thể các thuộc tính</summary>
   
   <br>
+  
+  | ![icons8showpropertypng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
+  | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+  | [-width](https://www.w3schools.com/cssref/pr_outline-width.asp)                                                                          | đặt chiều rộng của `outline`                                                                                                         | `medium`<br>`thin`<br>`thick`<br>*length*                                                                              |
+  | [-style](https://www.w3schools.com/cssref/pr_outline-style.asp)                                                                          | định dạng cho `outline`                                                                                                              | `none`<br>`hidden`<br>`dotted`<br>`dashed`<br>`solid`<br>`double`<br>`groove`<br>`ridge`<br>`inset`<br>`outset`        |
+  | [-color](https://www.w3schools.com/cssref/pr_outline-color.asp)                                                                          | đặt màu cho `outline`                                                                                                                | `invert`<br>*color*                                                                                                    |
+  
+  </details>
+  
+  <hr>
 
-  | Property                                                        | Description                  | Value                                                                                                           |
-  | --------------------------------------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------- |
-  | [-width](https://www.w3schools.com/cssref/pr_outline-width.asp) | đặt chiều rộng của `outline` | `medium`<br>`thin`<br>`thick`<br>*length*                                                                       |
-  | [-style](https://www.w3schools.com/cssref/pr_outline-style.asp) | định dạng cho `outline`      | `none`<br>`hidden`<br>`dotted`<br>`dashed`<br>`solid`<br>`double`<br>`groove`<br>`ridge`<br>`inset`<br>`outset` |
-  | [-color](https://www.w3schools.com/cssref/pr_outline-color.asp) | đặt màu cho `outline`        | `invert`<br>*color*                                                                                             |
+- ![icons8linewidthpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/14-12-42-39-icons8-line_width.png) [padding-*](https://www.w3schools.com/cssref/pr_padding.asp) : `top` `right` `bottom` `left`
+  
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
+  | ![icons8showpropertypng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property                                                                                                                             | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description                 | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
+  | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+  | [-top](https://www.w3schools.com/cssref/pr_padding-top.asp)<br>[-right](https://www.w3schools.com/cssref/pr_padding-right.asp)<br>[-bottom](https://www.w3schools.com/cssref/pr_padding-bottom.asp)<br>[-left](https://www.w3schools.com/cssref/pr_padding-left.asp) | đặt `padding` **bên trên** phần tử<br>đặt `padding` **bên phải** phần tử<br>đặt `padding` **bên dưới** phần tử<br>đặt `padding` **bên trái** phần tử | *length*<br>*%*                                                                                                        |
 
   </details>
 
   <hr>
-
-## T
-
-| ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [tab-size](https://www.w3schools.com/cssref/css3_pr_tab-size.asp)                                                                           |             |
-| [table-layout](https://www.w3schools.com/cssref/pr_tab_table-layout.asp)                                                                    |             |
-| [text-align](https://www.w3schools.com/cssref/pr_text_text-align.asp)                                                                       |             |
-| [text-align-last](https://www.w3schools.com/cssref/css3_pr_text-align-last.asp)                                                             |             |
-| text-combine-upright                                                                                                                        |             |
-| [text-decoration](https://www.w3schools.com/cssref/pr_text_text-decoration.asp)                                                             |             |
-| [text-decoration-color](https://www.w3schools.com/cssref/css3_pr_text-decoration-color.asp)                                                 |             |
-| [text-decoration-line](https://www.w3schools.com/cssref/css3_pr_text-decoration-line.asp)                                                   |             |
-| [text-decoration-style](https://www.w3schools.com/cssref/css3_pr_text-decoration-style.asp)                                                 |             |
-| [text-indent](https://www.w3schools.com/cssref/pr_text_text-indent.asp)                                                                     |             |
-| [text-justify](https://www.w3schools.com/cssref/css3_pr_text-justify.asp)                                                                   |             |
-| text-orientation                                                                                                                            |             |
-| [text-overflow](https://www.w3schools.com/cssref/css3_pr_text-overflow.asp)                                                                 |             |
-| [text-shadow](https://www.w3schools.com/cssref/css3_pr_text-shadow.asp)                                                                     |             |
-| [text-transform](https://www.w3schools.com/cssref/pr_text_text-transform.asp)                                                               |             |
-| text-underline-position                                                                                                                     |             |
-| [top](https://www.w3schools.com/cssref/pr_pos_top.asp)                                                                                      |             |
-| [transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)                                                                         |             |
-| [transform-origin](https://www.w3schools.com/cssref/css3_pr_transform-origin.asp)                                                           |             |
-| [transform-style](https://www.w3schools.com/cssref/css3_pr_transform-style.asp)                                                             |             |
-| [transition](https://www.w3schools.com/cssref/css3_pr_transition.asp)                                                                       |             |
-| [transition-delay](https://www.w3schools.com/cssref/css3_pr_transition-delay.asp)                                                           |             |
-| [transition-duration](https://www.w3schools.com/cssref/css3_pr_transition-duration.asp)                                                     |             |
-| [transition-property](https://www.w3schools.com/cssref/css3_pr_transition-property.asp)                                                     |             |
-| [transition-timing-function](https://www.w3schools.com/cssref/css3_pr_transition-timing-function.asp)                                       |             |
-
----
-
-## U
-
-| ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [unicode-bidi](https://www.w3schools.com/cssref/pr_text_unicode-bidi.asp)                                                                   |             |
-| [user-select](https://www.w3schools.com/cssref/css3_pr_user-select.asp)                                                                     |             |
-
----
-
-## V
-
-| ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [vertical-align](https://www.w3schools.com/cssref/pr_pos_vertical-align.asp)                                                                |             |
-| [visibility](https://www.w3schools.com/cssref/pr_class_visibility.asp)                                                                      |             |
-
----
-
-## W
-
-| ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [white-space](https://www.w3schools.com/cssref/pr_text_white-space.asp)                                                                     |             |
-| widows                                                                                                                                      |             |
-| [width](https://www.w3schools.com/cssref/pr_dim_width.asp)                                                                                  |             |
-| [word-break](https://www.w3schools.com/cssref/css3_pr_word-break.asp)                                                                       |             |
-| [word-spacing](https://www.w3schools.com/cssref/pr_text_word-spacing.asp)                                                                   |             |
-| [word-wrap](https://www.w3schools.com/cssref/css3_pr_word-wrap.asp)                                                                         |             |
-| [writing-mode](https://www.w3schools.com/cssref/css3_pr_writing-mode.asp)                                                                   |             |
-
----
-
-## Z
-
-| ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [z-index]()                                                                                                                                 |             |
 
 ---
 
