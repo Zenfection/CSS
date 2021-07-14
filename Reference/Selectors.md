@@ -1,84 +1,61 @@
-F
+# Selectors
 
-| ![icons8showpropertypng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description                                                                                                                                                                                                                 | Value                                                                                                                                                                                                                                                      |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [filter](https://www.w3schools.com/cssref/css3_pr_filter.asp)                                                                            | hiệu ứng của phần tử trước khi nó hiển thị                                                                                                                                                                                  | `none`<br>`blur`(*px*)<br>`brightness`(*%*)<br>`contrast`(*%*)<br>`drop-shadow`(*h-shadow*_*v-shadow*_*blur*_*spread*_*color*)<br>`grayscale`(*%*)<br>`hue-rotate`(*deg*)<br>`invert`(*%*)<br>`opacity`(*%*)<br>`saturate`(*%*)<br>`sepia`(*%*)<br>`url`() |
-| [float](https://www.w3schools.com/cssref/pr_class_float.asp)                                                                             | chỉ định phần tử nôi bên *trái/phải* hay không                                                                                                                                                                              | `none`<br>`left`<br>`right`                                                                                                                                                                                                                                |
-| [@font-face](https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp)                                                                | quy tắc cho phép web download và sử dụng font khác với font `web-safe`                                                                                                                                                      | nhiều lắm, coi [tại đây](https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp)                                                                                                                                                                      |
-| [font-feature-settings](https://www.w3schools.com/cssref/css3_pr_font-feature-settings.asp)                                              | cho phép kiểm soát tính năng đánh máy trong font `OpenType`                                                                                                                                                                 | `normal`<br>*feuture-value*                                                                                                                                                                                                                                |
-| @font-feature-values<br>font-variant-alternates                                                                                          | - cho phép tác giả sử dụng tên thường trông `font-variant-alternate` cho tính năng kích hoạt khác nhau trong `OpenType`<br>- kiểm soát sử dụng các `glyphs` liên kết với tên thay thế xác định trong `@font-feature-values` |                                                                                                                                                                                                                                                            |
-| [font-kerning](https://www.w3schools.com/cssref/css3_pr_font-kerning.asp)                                                                | kiểm soát sử dụng thông tin `kerning` (*khoảng cách giữa các ký tự*)                                                                                                                                                        | `auto`<br>`normal`<br>`auto`                                                                                                                                                                                                                               |
-| font-language-override                                                                                                                   | kiểm soát sử dụng ngôn ngữ dành cho `glyphs` trong một kiểu chữ                                                                                                                                                             |                                                                                                                                                                                                                                                            |
-| [font-size-adjust](https://www.w3schools.com/cssref/css3_pr_font-size-adjust.asp)                                                        | Duy trì khả năng đọc của văn bản khi xảy ra `font fallback`                                                                                                                                                                 | `number`<br>`none`                                                                                                                                                                                                                                         |
-| [font-stretch](https://www.w3schools.com/cssref/css3_pr_font-stretch.asp)                                                                | chọn khuôn chữ cho một `font family`                                                                                                                                                                                        | `ultra-condensed`<br>`extra-condensed`<br>`condensed`<br>`semi-condensed`<br>`normal`<br>`semi-expanded`<br>`expanded`<br>`extra-expanded`<br>`ultra-expanded`                                                                                             |
-| font-synthesis                                                                                                                           | kiểm soát những mặt chữ bị thiếu (**bold** ,*italic*) có thể tổng hợp bởi `browser`                                                                                                                                         |                                                                                                                                                                                                                                                            |
-| [font-variant-caps](https://www.w3schools.com/cssref/css3_pr_font-variant-caps.asp)                                                      | - kiểm soát sử dụng của `glyphs` cho chữ cái viết **HOA**                                                                                                                                                                   | `normal`<br>`small-caps`<br>`all-small-caps`<br>`petite-caps`<br>`all-petite-caps`<br>`unicase`<br>`titling-caps`<br>`unset`                                                                                                                               |
-| font-variant-east-asian                                                                                                                  | kiểm soát sử dụng của `glyphs` thay thế cho chữ **Đông á** (*nhật hoặc trung quốc*)                                                                                                                                         |                                                                                                                                                                                                                                                            |
-| font-variant-ligatures                                                                                                                   | kiểm soát sử dụng các dạng chữ `ligatures`                                                                                                                                                                                  |                                                                                                                                                                                                                                                            |
-| font-variant-numeric                                                                                                                     | kiểm soát sử dụng các `glyphs` thay thế cho số, phân số...                                                                                                                                                                  |                                                                                                                                                                                                                                                            |
-| font-variant-position                                                                                                                    | kiểm soát sử dụng các `glyphs` thay thế trên hoặc chỉ số dưới liên quan đến đường cơ sở của phông chữ                                                                                                                       |                                                                                                                                                                                                                                                            |
-
-- [flex-*](https://www.w3schools.com/cssref/css3_pr_flex.asp) : `grow` `shrink` `basis`
-  
-  | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description | Value |
-  | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----- |
-  | [grow](https://www.w3schools.com/cssref/css3_pr_flex-grow.asp)                                                                              |             |       |
-  | [shrink](https://www.w3schools.com/cssref/css3_pr_flex-shrink.asp)                                                                          |             |       |
-  | [basis](https://www.w3schools.com/cssref/css3_pr_flex-basis.asp)                                                                            |             |       |
-
-- [flex-flow-*](https://www.w3schools.com/cssref/css3_pr_flex-flow.asp) : `direction` `wrap`
-  
-  | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description | Value |
-  | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----- |
-  | [direction](https://www.w3schools.com/cssref/css3_pr_flex-direction.asp)                                                                    |             |       |
-  | [wrap](https://www.w3schools.com/cssref/css3_pr_flex-wrap.asp)                                                                              |             |       |
-
-- [font-*](https://www.w3schools.com/cssref/pr_font_font.asp) : `style` `variant` `weight` `size` `family`
-  
-  | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description | Value |
-  | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----- |
-  | [style](https://www.w3schools.com/cssref/pr_font_font-style.asp)                                                                            |             |       |
-  | [variant](https://www.w3schools.com/cssref/pr_font_font-variant.asp)                                                                        |             |       |
-  | [weight](https://www.w3schools.com/cssref/pr_font_weight.asp)                                                                               |             |       |
-  | [size](https://www.w3schools.com/cssref/pr_font_font-size.asp)                                                                              |             |       |
-  | [family](https://www.w3schools.com/cssref/pr_font_font-family.asp)                                                                          |             |       |
-
----
-
-## G
-
-| ![icons8showpropertypng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
-| [gap](https://www.w3schools.com/cssref/css3_pr_gap.asp)                                                                                  |             |
-| [grid](https://www.w3schools.com/cssref/pr_grid.asp)                                                                                     |             |
-| [grid-area](https://www.w3schools.com/cssref/pr_grid-area.asp)                                                                           |             |
-| [grid-column](https://www.w3schools.com/cssref/pr_grid-column.asp)                                                                       |             |
-| [grid-row](https://www.w3schools.com/cssref/pr_grid-row.asp)                                                                             |             |
-| [grid-template](https://www.w3schools.com/cssref/pr_grid-template.asp)                                                                   |             |
-
-- [grid-\*-\*](https://www.w3schools.com/cssref/pr_grid.asp) : `template-rows` `template-columns` `template-areas` `auto-rows` `auto-columns` `auto-flow`
-  
-  | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description | Value |
-  | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----- |
-  | [grid-template-rows](https://www.w3schools.com/cssref/pr_grid-template-rows.asp)                                                            |             |       |
-  | [grid-template-columns](https://www.w3schools.com/cssref/pr_grid-template-columns.asp)                                                      |             |       |
-  | [grid-template-areas](https://www.w3schools.com/cssref/pr_grid-template-areas.asp)                                                          |             |       |
-  | [grid-auto-rows](https://www.w3schools.com/cssref/pr_grid-auto-rows.asp)                                                                    |             |       |
-  | [grid-auto-columns](https://www.w3schools.com/cssref/pr_grid-auto-columns.asp)                                                              |             |       |
-  | [grid-auto-flow](https://www.w3schools.com/cssref/pr_grid-auto-flow.asp)                                                                    |             |       |
-
-- [grid-area-*](https://www.w3schools.com/cssref/pr_grid-area.asp) : `row-start` `column-start` `row-end` `column-end`
-  
-  | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description | Value |
-  | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----- |
-  | [grid-row-start](https://www.w3schools.com/cssref/pr_grid-row-start.asp)                                                                    |             |       |
-  | [grid-column-start](https://www.w3schools.com/cssref/pr_grid-column-start.asp)                                                              |             |       |
-  | [grid-row-end](https://www.w3schools.com/cssref/pr_grid-row-end.asp)                                                                        |             |       |
-  | [grid-column-end](https://www.w3schools.com/cssref/pr_grid-column-end.asp)                                                                  |             |       |
-
-- [grid-\*-gap](https://www.w3schools.com/cssref/pr_grid-gap.asp) : `row` `column`
-  
-  | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | Description | Value |
-  | ------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----- |
-  | [grid-row-gap](https://www.w3schools.com/cssref/pr_grid-row-gap.asp)                                                                        |             |       |
-  | [grid-column-gap](https://www.w3schools.com/cssref/pr_grid-column-gap.asp)                                                                  |             |       |
+| Selector               | Example | Description |
+| ---------------------- | ------- | ----------- |
+| .class                 |         |             |
+| .class1.class2         |         |             |
+| .class1 .class2        |         |             |
+| #id                    |         |             |
+| \*                     |         |             |
+| element                |         |             |
+| element.class          |         |             |
+| element,element        |         |             |
+| element element        |         |             |
+| element>element        |         |             |
+| element+element        |         |             |
+| element1\~element2     |         |             |
+| [attribute]            |         |             |
+| [attribute=value]      |         |             |
+| [attribute\~=value]    |         |             |
+| [attribute\|=value]    |         |             |
+| [attribute\$=value]    |         |             |
+| [attribute\*=value]    |         |             |
+| :active                |         |             |
+| ::after                |         |             |
+| ::before               |         |             |
+| :checked               |         |             |
+| :default               |         |             |
+| :disabled              |         |             |
+| :enabled               |         |             |
+| :first-child           |         |             |
+| ::first-letter         |         |             |
+| ::first-line           |         |             |
+| :first-of-type         |         |             |
+| :focus                 |         |             |
+| :fullscreen            |         |             |
+| :hover                 |         |             |
+| :in-range              |         |             |
+| :indeterminate         |         |             |
+| :invalid               |         |             |
+| :lang(*language*)      |         |             |
+| :last-of-type          |         |             |
+| :link                  |         |             |
+| ::marker               |         |             |
+| :not(*selector*)       |         |             |
+| :nth-child(*n*)        |         |             |
+| :nth-last-of-type(*n*) |         |             |
+| :nth-of-type(*n*)      |         |             |
+| :only-of-type          |         |             |
+| :only-child            |         |             |
+| :optional              |         |             |
+| :out-of-range          |         |             |
+| ::placeholder          |         |             |
+| :readonly              |         |             |
+| :read-only             |         |             |
+| :read-write            |         |             |
+| :required              |         |             |
+| :root                  |         |             |
+| ::selection            |         |             |
+| :target                |         |             |
+| :valid                 |         |             |
+| :visited               |         |             |
