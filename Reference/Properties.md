@@ -56,7 +56,7 @@ Value chung là `initial` và `inherit`
 | [order](https://www.w3schools.com/cssref/css3_pr_order.asp)                                                                                                                                                                                                                              | đặt thứ tự cho `flexible item` liên quan tới các phần còn                                                                                                                                                                                                                                                                                                                  | *number*                                                                                                                                                                                                                                                   |
 | [outline-offset](https://www.w3schools.com/cssref/css3_pr_outline-offset.asp)                                                                                                                                                                                                            | thiết lập đường viền và vẽ nó ra ngoài rìa đường viền                                                                                                                                                                                                                                                                                                                      | *length*                                                                                                                                                                                                                                                   |
 | [overflow](https://www.w3schools.com/cssref/pr_pos_overflow.asp)<br>[overflow-x](https://www.w3schools.com/cssref/css3_pr_overflow-x.asp)<br>[overflow-y](https://www.w3schools.com/cssref/css3_pr_overflow-y.asp)                                                                       | - điều xảy ra khi nội dung tràn ra `box`<br>- cắt cạnh **trái**/**phải** của nội dung nếu nó tràn ra `box` hay không<br>- cắt cạnh **trên**/**dưới** của nội dung nếu nó tràn ra `box` hay không                                                                                                                                                                           | `visible`<br>`hidden`<br>`scroll`<br>`auto`                                                                                                                                                                                                                |
-| overflow-wrap                                                                                                                                                                                                                                                                            | `browser` có thể ngắt dòng trong các từ để ngăn tràn văn bản<br>(*khi văn bản quá dài để chứa trong `box`*)<br><br>==> tham khảo cụ thể [tại đây](http://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap)                                                                                                                                                           |                                                                                                                                                                                                                                                            |
+| overflow-wrap                                                                                                                                                                                                                                                                            | `browser` có thể ngắt dòng trong các từ để ngăn tràn văn bản<br>(*khi văn bản quá dài để chứa trong `box`*)<br><br>==> tham khảo cụ thể [tại đây](http://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap)                                                                                                                                                           | `normal`<br>`anywhere`<br>`break-word`                                                                                                                                                                                                                     |
 
 ---
 
@@ -354,6 +354,11 @@ Value chung là `initial` và `inherit`
 
 - ![icons8-remove_borders.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-22-07-35-icons8-remove_borders.png) [margin-*](https://www.w3schools.com/cssref/pr_margin.asp) : `top` `left` `bottom` `right`
   
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
   **Value** : *length* | *%* | `auto`
   
   ⚠️ Các đối số sẽ định dạng khác nhau :
@@ -375,7 +380,26 @@ Value chung là `initial` và `inherit`
   > 
   > - [margin-left](https://www.w3schools.com/cssref/pr_margin-left.asp)
 
----
+  </details>
+
+  <hr>
+
+- ![icons8outlinepng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/14-12-39-49-icons8-outline.png) [outline-*](https://www.w3schools.com/cssref/pr_outline.asp) : `width` `style` `color`
+  
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+  
+  <br>
+
+  | Property                                                        | Description                  | Value                                                                                                           |
+  | --------------------------------------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------- |
+  | [-width](https://www.w3schools.com/cssref/pr_outline-width.asp) | đặt chiều rộng của `outline` | `medium`<br>`thin`<br>`thick`<br>*length*                                                                       |
+  | [-style](https://www.w3schools.com/cssref/pr_outline-style.asp) | định dạng cho `outline`      | `none`<br>`hidden`<br>`dotted`<br>`dashed`<br>`solid`<br>`double`<br>`groove`<br>`ridge`<br>`inset`<br>`outset` |
+  | [-color](https://www.w3schools.com/cssref/pr_outline-color.asp) | đặt màu cho `outline`        | `invert`<br>*color*                                                                                             |
+
+  </details>
+
+  <hr>
 
 ## T
 
