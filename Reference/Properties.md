@@ -1,6 +1,10 @@
-# Properties
+# ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/14-15-04-26-icons8-show_property.png) Properties <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/14-15-04-51-08-15-57-53-68747470733a2f2f6d65646961302e67697068792e636f6d2f6d656469612f667345615a6c644e43384131504a336d77702f736f757263652e676966.gif" title="" alt="08-15-57-53-68747470733a2f2f6d65646961302e67697068792e636f6d2f6d656469612f667345615a6c644e43384131504a336d77702f736f757263652e676966.gif" width="50">
 
-Value chung là `initial` và `inherit`
+**Value chung** là `initial` và `inherit` cho hầu hết các thuộc tính dưới đây
+
+> - `initial` : sử dụng định dạng gốc của phần tử
+> 
+> - `inherit` : sử dụng định dạng của phần tử cha của nó
 
 ## <img src="https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/14-14-23-17-icons8-unicast.png"> Single Property
 
