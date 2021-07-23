@@ -114,33 +114,46 @@
   
   <hr>
 
-![icons8roundedrectanglestrokedpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-03-08-icons8-rounded_rectangle_stroked.png) [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) : bo tròn góc
+- ![icons8roundedrectanglestrokedpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-03-08-icons8-rounded_rectangle_stroked.png) [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) : bo tròn góc
+  
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+  
+  ⚠️ Các đối số sẽ định dạng khác nhau :
 
-⚠️ Các đối số sẽ định dạng khác nhau :
+  | Đối số              | chức năng (bo tròn)                                                                                  |
+  | ------------------- | ---------------------------------------------------------------------------------------------------- |
+  | 10px                | 4 góc `10px`                                                                                         |
+  | 10px 20px           | `top-left` và `bottom-right` là `10px`<br>`top-right` và `bottom-left` là `20px`                     |
+  | 10px 20px 30px      | `top-left` là `10px`<br>`top-right` và `bottom-left` là `20px`<br>`bottom-right` là `30px`           |
+  | 10px 20px 30px 40px | `top-left` là `10px`<br>`top-right` là `20px`<br>`bottom-right` là `30px`<br>`bottom-left` là `40px` |
 
-| Đối số              | chức năng (bo tròn)                                                                                  |
-| ------------------- | ---------------------------------------------------------------------------------------------------- |
-| 10px                | 4 góc `10px`                                                                                         |
-| 10px 20px           | `top-left` và `bottom-right` là `10px`<br>`top-right` và `bottom-left` là `20px`                     |
-| 10px 20px 30px      | `top-left` là `10px`<br>`top-right` và `bottom-left` là `20px`<br>`bottom-right` là `30px`           |
-| 10px 20px 30px 40px | `top-left` là `10px`<br>`top-right` là `20px`<br>`bottom-right` là `30px`<br>`bottom-left` là `40px` |
+  **Value** : *length* | *%*
 
-**Value** : *length* | *%*
+  > ==> Tương tự cũng có thể định dạng cụ thể `4` góc cạnh như sau :
+  > 
+  > [border-top-left-radius](https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp), [border-top-right-radius](https://www.w3schools. com/cssref/css3_pr_border-top-right-radius.asp), [border-bottom-right-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius. asp), [border-bottom-left-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp)
 
-> ==> Tương tự cũng có thể định dạng cụ thể `4` góc cạnh như sau :
-> 
-> [border-top-left-radius](https://www.w3schools.com/cssref/css3_pr_border-top-left-radius.asp), [border-top-right-radius](https://www.w3schools.com/cssref/css3_pr_border-top-right-radius.asp), [border-bottom-right-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-right-radius.asp), [border-bottom-left-radius](https://www.w3schools.com/cssref/css3_pr_border-bottom-left-radius.asp)
+  </details>
+  
+  <hr>
 
-![icons8fullimagepng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-02-18-icons8-full_image.png) [border-image-*](https://www.w3schools.com/cssref/css3_pr_border-image.asp) : `source` `slice` `width` `outset` `repeat`
+- ![icons8fullimagepng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-02-18-icons8-full_image.png) [border-image-*](https://www.w3schools.com/cssref/css3_pr_border-image.asp) : `source` `slice` `width` `outset` `repeat`
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+    
+  | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
+  | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+  | [-source](https://www.w3schools.com/cssref/css3_pr_border-image-source.asp)                                                                 | đường dẫn hình ảnh cho đường viền                                                                                                    | `none`<br>*image*<br>                                                                                                  |
+  | [-slice](https://www.w3schools.com/cssref/css3_pr_border-image-slice.asp)                                                                   | kiểu cách cắt đường viền                                                                                                             | *number*<br>*%*<br>`fill`                                                                                              |
+  | [-width](https://www.w3schools.com/cssref/css3_pr_border-image-width.asp)                                                                   | chiều rộng của ảnh đường viền                                                                                                        |  *length*<br>*number*<br>*%*<br>`auto`                                                                                  |
+  | [-outset](https://www.w3schools.com/cssref/css3_pr_border-image-outset.asp)                                                                 | số lượng mà khu vực ảnh đường viền mở rộng ra ngoài biên                                                                             | *length*<br>*number*                                                                                                   |
+  | [-repeat](https://www.w3schools.com/cssref/css3_pr_border-image-repeat.asp)                                                                 | chỉ định ảnh đường viễn lặp lại (*tròn hay, kèo dài*)                                                                                | `stretch`<br>`repeat`<br>`round`<br>`space`                                                                            |
 
-| ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
-| ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| [-source](https://www.w3schools.com/cssref/css3_pr_border-image-source.asp)                                                                 | đường dẫn hình ảnh cho đường viền                                                                                                    | `none`<br>*image*<br>                                                                                                  |
-| [-slice](https://www.w3schools.com/cssref/css3_pr_border-image-slice.asp)                                                                   | kiểu cách cắt đường viền                                                                                                             | *number*<br>*%*<br>`fill`                                                                                              |
-| [-width](https://www.w3schools.com/cssref/css3_pr_border-image-width.asp)                                                                   | chiều rộng của ảnh đường viền                                                                                                        | *length*<br>*number*<br>*%*<br>`auto`                                                                                  |
-| [-outset](https://www.w3schools.com/cssref/css3_pr_border-image-outset.asp)                                                                 | số lượng mà khu vực ảnh đường viền mở rộng ra ngoài biên                                                                             | *length*<br>*number*                                                                                                   |
-| [-repeat](https://www.w3schools.com/cssref/css3_pr_border-image-repeat.asp)                                                                 | chỉ định ảnh đường viễn lặp lại (*tròn hay, kèo dài*)                                                                                | `stretch`<br>`repeat`<br>`round`<br>`space`                                                                            |
+  </details>
 
+  <hr>
+  
 ![icons8removeborderspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-22-07-35-icons8-remove_borders.png) [margin-*](https://www.w3schools.com/cssref/pr_margin.asp) : `top` `left` `bottom` `right`
 
 - Value** : *length* | *%* | `auto`
