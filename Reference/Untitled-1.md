@@ -93,14 +93,14 @@
 
 ## Box-Model
 
-- ![Screen Shot 2021-07-17 at 16.50.12.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/17-16-50-19-Screen%20Shot%202021-07-17%20at%2016.50.12.png)
+![Screen Shot 2021-07-17 at 16.50.12.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/17-16-50-19-Screen%20Shot%202021-07-17%20at%2016.50.12.png)
+
+  ![icons8borderverticalpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-01-41-icons8-border_vertical.png) [border-*](https://www.w3schools.com/cssref/pr_border.asp) : `width` `style` `color`
 
   <details>
     <summary> Cụ thể các thuộc tính</summary>
   
     <br>
-
-  ![icons8borderverticalpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-01-41-icons8-border_vertical.png) [border-*](https://www.w3schools.com/cssref/pr_border.asp) : `width` `style` `color`
 
   | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
   | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
@@ -115,7 +115,7 @@
   > [border-top-*](https://www.w3schools.com/cssref/pr_border-top.asp), [border-right-*](https://www.w3schools.com/cssref/pr_border-right.asp) , [border-bottom-*](https://www.w3schools.com/cssref/pr_border-bottom.asp), [border-left-*](https://www.w3schools.com/cssref/pr_border-left.asp): `width` `style` `color`
   
   <hr>
-  
+
 ![icons8roundedrectanglestrokedpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-03-08-icons8-rounded_rectangle_stroked.png) [border-radius](https://www.w3schools.com/cssref/css3_pr_border-radius.asp) : bo tròn góc
 
 ⚠️ Các đối số sẽ định dạng khác nhau :
