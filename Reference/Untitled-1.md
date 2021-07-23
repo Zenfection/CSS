@@ -1,4 +1,4 @@
-# ![icons8showpropertypng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/14-15-04-26-icons8-show_property.png) Properties ![08-15-57-53-68747470733a2f2f6d65646961302e67697068792e636f6d2f6d656469612f667345615a6c644e43384131504a336d77702f736f757263652e676966.gif](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/14-15-04-51-08-15-57-53-68747470733a2f2f6d65646961302e67697068792e636f6d2f6d656469612f667345615a6c644e43384131504a336d77702f736f757263652e676966.gif)
+d# ![icons8showpropertypng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/14-15-04-26-icons8-show_property.png) Properties ![08-15-57-53-68747470733a2f2f6d65646961302e67697068792e636f6d2f6d656469612f667345615a6c644e43384131504a336d77702f736f757263652e676966.gif](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/14-15-04-51-08-15-57-53-68747470733a2f2f6d65646961302e67697068792e636f6d2f6d656469612f667345615a6c644e43384131504a336d77702f736f757263652e676966.gif)
 
 **Value chung** là `initial` và `inherit` cho hầu hết các thuộc tính dưới đây
 
@@ -153,10 +153,13 @@
   </details>
 
   <hr>
-  
-![icons8removeborderspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-22-07-35-icons8-remove_borders.png) [margin-*](https://www.w3schools.com/cssref/pr_margin.asp) : `top` `left` `bottom` `right`
 
-- Value** : *length* | *%* | `auto`
+- ![icons8removeborderspng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/13-22-07-35-icons8-remove_borders.png) [margin-*](https://www.w3schools.com/cssref/pr_margin.asp) : `top` `left` `bottom` `right`
+
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+  
+  Value** : *length* | *%* | `auto`
   
   ⚠️ Các đối số sẽ định dạng khác nhau :
   
@@ -175,21 +178,37 @@
   > 
   > - [margin-bottom](https://www.w3schools.com/cssref/pr_margin-bottom.asp)
   > 
-  > - [margin-left](https://www.w3schools.com/cssref/pr_margin-left.asp
+  > - [margin-left](https://www.w3schools.com/cssref/pr_margin-left.asp)
 
-![icons8linewidthpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/14-12-42-39-icons8-line_width.png) [padding-*](https://www.w3schools.com/cssref/pr_padding.asp) : `top` `right` `bottom` `left`
+  </details>
 
-| ![icons8showpropertypng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property                                                                                                                             | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description                 | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| [-top](https://www.w3schools.com/cssref/pr_padding-top.asp)<br>[-right](https://www.w3schools.com/cssref/pr_padding-right.asp)<br>[-bottom](https://www.w3schools.com/cssref/pr_padding-bottom.asp)<br>[-left](https://www.w3schools.com/cssref/pr_padding-left.asp) | đặt `padding` **bên trên** phần tử<br>đặt `padding` **bên phải** phần tử<br>đặt `padding` **bên dưới** phần tử<br>đặt `padding` **bên trái** phần tử | *length*<br>*%*                                                                                                        |
+  <hr>
 
-![icons8outlinepng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/14-12-39-49-icons8-outline.png) [outline-*](https://www.w3schools.com/cssref/pr_outline.asp) : `width` `style` `color`
+- ![icons8linewidthpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/14-12-42-39-icons8-line_width.png) [padding-*](https://www.w3schools.com/cssref/pr_padding.asp) : `top` `right` `bottom` `left`
 
-| ![icons8showpropertypng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
-| [-width](https://www.w3schools.com/cssref/pr_outline-width.asp)                                                                          | đặt chiều rộng của `outline`                                                                                                         | `medium`<br>`thin`<br>`thick`<br>*length*                                                                              |
-| [-style](https://www.w3schools.com/cssref/pr_outline-style.asp)                                                                          | định dạng cho `outline`                                                                                                              | `none`<br>`hidden`<br>`dotted`<br>`dashed`<br>`solid`<br>`double`<br>`groove`<br>`ridge`<br>`inset`<br>`outset`        |
-| [-color](https://www.w3schools.com/cssref/pr_outline-color.asp)                                                                          | đặt màu cho `outline`                                                                                                                | `invert`<br>*color*                                                                                                    |
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+  
+  | ![icons8showpropertypng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property                                                                                                                             | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description                 | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
+  | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+  | [-top](https://www.w3schools.com/cssref/pr_padding-top.asp)<br>[-right](https://www.w3schools.com/cssref/pr_padding-right.asp)<br>[-bottom](https://www.w3schools.com/cssref/pr_padding-bottom.asp)<br>[-left](https://www.w3schools.com/cssref/pr_padding-left.asp) | đặt `padding` **bên trên** phần tử<br>đặt `padding` **bên phải** phần tử<br>đặt `padding` **bên dưới** phần tử<br>đặt `padding` **bên trái** phần tử | *length*<br>*%*                                                                                                        |
+
+  </details>
+
+  <hr>
+
+- ![icons8outlinepng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/14-12-39-49-icons8-outline.png) [outline-*](https://www.w3schools.com/cssref/pr_outline.asp) : `width` `style` `color`
+
+  <details>
+    <summary> Cụ thể các thuộc tính</summary>
+
+  | ![icons8showpropertypng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
+  | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+  | [-width](https://www.w3schools.com/cssref/pr_outline-width.asp)                                                                          | đặt chiều rộng của `outline`                                                                                                         | `medium`<br>`thin`<br>`thick`<br>*length*                                                                              |
+  | [-style](https://www.w3schools.com/cssref/pr_outline-style.asp)                                                                          | định dạng cho `outline`                                                                                                              | `none`<br>`hidden`<br>`dotted`<br>`dashed`<br>`solid`<br>`double`<br>`groove`<br>`ridge`<br>`inset`<br>`outset`        |
+  | [-color](https://www.w3schools.com/cssref/pr_outline-color.asp)                                                                          | đặt màu cho `outline`                                                                                                                | `invert`<br>*color*                                                                                                    |
+
+  </details>
 
 ---
 
