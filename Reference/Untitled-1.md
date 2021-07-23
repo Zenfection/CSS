@@ -95,12 +95,10 @@
 
 ![Screen Shot 2021-07-17 at 16.50.12.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/17-16-50-19-Screen%20Shot%202021-07-17%20at%2016.50.12.png)
 
-  ![icons8borderverticalpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-01-41-icons8-border_vertical.png) [border-*](https://www.w3schools.com/cssref/pr_border.asp) : `width` `style` `color`
+- ![icons8borderverticalpng](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/12-17-01-41-icons8-border_vertical.png) [border-*](https://www.w3schools.com/cssref/pr_border.asp) : `width` `style` `color`
 
   <details>
     <summary> Cụ thể các thuộc tính</summary>
-  
-    <br>
 
   | ![icons8-show_property.png](https://raw.githubusercontent.com/Zenfection/Image/master/2021/07/10-19-37-45-icons8-show_property.png)Property | ![description](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/13-10-06-26-icons8-handle_with_care.png)Description | ![value](https://raw.githubusercontent.com/Zenfection/Image/master/2021/06/22-16-08-47-icons8-purchase_order.png)Value |
   | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
